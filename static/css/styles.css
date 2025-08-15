@@ -21,10 +21,10 @@ body.light-mode {
 }
 
 .container {
-  width: 80%;
-  max-width: 1200px;
+  width: 60%;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 20px;
   background-color: #0a0a0a;
   transition: all 0.3s ease;
 }
@@ -39,8 +39,8 @@ body.light-mode .container {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 3rem;
-  padding: 2rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
   background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
   border-radius: 15px;
   box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1);
@@ -55,7 +55,7 @@ body.light-mode .header {
 }
 
 .header h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 300;
   color: #ffffff;
   margin-bottom: 1rem;
@@ -70,7 +70,7 @@ body.light-mode .header h1 {
 
 .profile-img {
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   height: auto;
   border-radius: 15px;
   margin-top: 1rem;
@@ -86,8 +86,8 @@ body.light-mode .header h1 {
 
 /* Sections */
 section {
-  margin-bottom: 3rem;
-  padding: 2rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.08);
@@ -102,10 +102,10 @@ body.light-mode section {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 300;
   color: #ffffff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
   border-bottom: 3px solid #666666;
   padding-bottom: 0.8rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -164,9 +164,9 @@ body.light-mode p {
 .research-item, .work-item, .education-item, .project-item {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -275,8 +275,8 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   color: #cccccc;
-  margin-top: 3rem;
-  padding: 2rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
   border-top: 2px solid #666666;
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
   border-radius: 15px;
@@ -367,6 +367,11 @@ body.light-mode .theme-toggle:hover {
 
 /* Responsive Design */
 @media (min-width: 768px) {
+  .container {
+    width: 60%;
+    padding: 20px;
+  }
+  
   .header {
     flex-direction: row;
     justify-content: space-between;
@@ -374,7 +379,7 @@ body.light-mode .theme-toggle:hover {
   }
 
   .header h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .profile-img {
@@ -398,7 +403,7 @@ body.light-mode .theme-toggle:hover {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   p {
@@ -406,9 +411,16 @@ body.light-mode .theme-toggle:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .container {
+    width: 85%;
+    padding: 15px;
+  }
+}
+
 @media (max-width: 480px) {
   .container {
-    width: 80%;
+    width: 90%;
     padding: 15px;
   }
 
