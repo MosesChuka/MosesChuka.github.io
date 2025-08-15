@@ -21,8 +21,8 @@ body.light-mode {
 }
 
 .container {
-  width: 60%;
-  max-width: 900px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   background-color: #0a0a0a;
@@ -368,7 +368,8 @@ body.light-mode .theme-toggle:hover {
 /* Responsive Design */
 @media (min-width: 768px) {
   .container {
-    width: 60%;
+    width: 100%;
+    max-width: 1200px;
     padding: 20px;
   }
   
@@ -413,14 +414,14 @@ body.light-mode .theme-toggle:hover {
 
 @media (max-width: 768px) {
   .container {
-    width: 85%;
+    width: 100%;
     padding: 15px;
   }
 }
 
 @media (max-width: 480px) {
   .container {
-    width: 90%;
+    width: 100%;
     padding: 15px;
   }
 
