@@ -172,18 +172,11 @@ description: Moses Chukwuka's website
 <p>Chinese Language Proficiency, HSK4<br><em>2016-2017</em></p>
 </div>
 </div>
-<div class="education-item">
-<div class="education-content">
-<h3>Marist Brothers’ Juniorate</h3>
-<p>W.A.S.S.C. and N.E.C.O.<br><em>2009-2015</em></p>
-</div>
-</div>
 </section>
 
 <section class="teaching-service">
 <h2>Service</h2>
 <ul>
-<li>Member, Texas Instrument Research and Development Lab, <em>2018-2021</em></li>
 <li>Graduate Student Research Assistant (Navigation, Positioning, and Wireless Communication), <em>2018-2021</em></li>
 </ul>
 </section>
@@ -350,12 +343,6 @@ description: Moses Chukwuka's website
 <div class="education-content">
 <h3>湘潭大学国际交流学院</h3>
 <p>汉语水平考试HSK4<br><em>2016-2017</em></p>
-</div>
-</div>
-<div class="education-item">
-<div class="education-content">
-<h3>Marist Brothers’ Juniorate</h3>
-<p>W.A.S.S.C. 和 N.E.C.O.<br><em>2009-2015</em></p>
 </div>
 </div>
 </section>
