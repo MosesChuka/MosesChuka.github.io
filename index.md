@@ -24,12 +24,13 @@ description: Moses Chukwuka's website
 <div class="links">
 <a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">CV</a> |
 <a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> |
-<a href="https://www.facebook.com/ChukwukaOkonkwo">Facebook</a>
+<a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
 </div>
 </section>
 
 <section class="contact">
 <h2>Contact</h2>
+<p><strong>Email:</strong> chukwukaokonkwo@zju.edu.cn
 <p><strong>Email:</strong> chukwukaokonkwo8@gmail.com</p>
 <p><strong>Phone:</strong> 0086-151-972-70-103; 0086-177-435-075-22</p>
 <div class="links">
