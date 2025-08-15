@@ -44,34 +44,12 @@ description: Moses Chukwuka's website
 
 <section class="research">
 <h2>Research</h2>
+
+
 <div class="research-item">
 <div class="research-content">
-<h3>Enhancing Stability and Safety: A Novel Multi-constraint Model Predictive Control Approach for Forklift Trajectory</h3>
-<p><em>Yizhen Sun, Junyou Yang, Donghui Zhao, Moses Chukwuka Okonkwo, Jianmin Zhang, Shuoyu Wang, Yang Liu</em><br><strong>IET Cyber-Systems and Robotics (Under Review, 2024)</strong></p>
-</div>
-</div>
-<div class="research-item">
-<div class="research-content">
-<h3>RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors</h3>
-<p><em>Moses Chukwuka Okonkwo, Junyou Yang, Yizhen Sun, Guang Yang, Fausto Pedro García Márquez</em><br><strong>IEEE ACCESS (2024)</strong><br><a href="http://dx.doi.org/10.1109/ACCESS.2024.3368859">Link</a></p>
-</div>
-</div>
-<div class="research-item">
-<div class="research-content">
-<h3>A Safe and Compliant Noncontact Interactive Approach for Wheeled Walking Aid Robot</h3>
-<p><em>Donghui Zhao, Wei Wang, Moses Chukwuka Okonkwo, Zihao Yang, Junyou Yang, Houde Liu</em><br><strong>Computational Intelligence and Neuroscience Journals (2022)</strong><br><a href="http://dx.doi.org/10.1155/2022/3033920">Link</a></p>
-</div>
-</div>
-<div class="research-item">
-<div class="research-content">
-<h3>A novel method for asynchronous source localisation based on time of arrival measurements</h3>
-<p><em>Huijie Zhu, Sheng Liu, Wei Xu, Zhiqiang Yao, Moses Chukwuka Okonkwo, Zheng Peng</em><br><strong>International Journal of Distributed Sensor Networks (2020)</strong><br><a href="http://dx.doi.org/10.1177/15501477211053706">Link</a></p>
-</div>
-</div>
-<div class="research-item">
-<div class="research-content">
-<h3>Research on Selection Method of Mobile Communication Signal Location Source</h3>
-<p><em>Huijie Zhu, Wei Xu, Yalou Sang, Zhiqiang Yao, Limei Liu, Moses Chukwuka Okonkwo</em><br><strong>IEEE/ICACT2021 (2020)</strong></p>
+<h3><a href="http://dx.doi.org/10.1109/ACCESS.2024.3368859">RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors</a></h3>
+<p><em>Moses Chukwuka Okonkwo, Junyou Yang, Yizhen Sun, Guang Yang, Fausto Pedro García Márquez</em><br><strong>IEEE ACCESS (2024)</strong></p>
 </div>
 </div>
 </section>
@@ -83,36 +61,8 @@ description: Moses Chukwuka's website
 <p><em>2023, MSc Project (in-progress)</em></p>
 </div>
 <div class="project-item">
-<h3>Indoor object real-time recognition based on Neural Networks (Yolov5)</h3>
+<h3>Trajectory Estimation on Visual Stream Images Using Agro-Nav</h3>
 <p><em>2022</em></p>
-</div>
-<div class="project-item">
-<h3>STM32 based mobile car with PID controlled motors</h3>
-<p><em>2021, BSc Project</em></p>
-</div>
-<div class="project-item">
-<h3>Servo motor PID speed control</h3>
-<p><em>2021</em></p>
-</div>
-<div class="project-item">
-<h3>Display of IMU and GPS sensor data using STM32 embedded system</h3>
-<p><em>2020</em></p>
-</div>
-<div class="project-item">
-<h3>Sound Detection Reading Glass for Deaf People</h3>
-<p><em>2020, Team</em></p>
-</div>
-<div class="project-item">
-<h3>Time based stepper motor control for dressing robot</h3>
-<p><em>2020</em></p>
-</div>
-<div class="project-item">
-<h3>51 McU Line tracking mobile car based on photo-resistors</h3>
-<p><em>2019</em></p>
-</div>
-<div class="project-item">
-<h3>Oscillator based Clock and Alarm using 8051 McU</h3>
-<p><em>2019</em></p>
 </div>
 </section>
 
