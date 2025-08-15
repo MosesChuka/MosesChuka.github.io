@@ -8,7 +8,7 @@ description: Moses Chukwuka's website
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 <link href="/static/css/styles.css" rel="stylesheet">
 
-<button onclick="toggleLanguage()">Toggle Language (English/中文)</button>
+<button style='padding: 5px 5px; border-radius: 6px;' onclick="toggleLanguage()">Toggle Language (English/中文)</button>
 
 <div class="container" id="en">
 <header class="header">
