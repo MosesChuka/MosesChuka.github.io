@@ -1,293 +1,381 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moses Chukwuka OKONKWO</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .header {
-            text-align: center;
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-top: 10px;
-        }
-        section {
-            margin-bottom: 30px;
-        }
-        h2 {
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 5px;
-        }
-        .contact p, .links a {
-            font-size: 1.1em;
-        }
-        .links a {
-            margin-right: 15px;
-            color: #0066cc;
-            text-decoration: none;
-        }
-        .links a:hover {
-            text-decoration: underline;
-        }
-        .section-item {
-            margin-bottom: 15px;
-        }
-        .work-item, .education-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        .item-logo {
-            width: 60px;
-            height: 60px;
-            margin-right: 15px;
-            object-fit: contain;
-        }
-        .toggle-button {
-            cursor: pointer;
-            padding: 10px 20px;
-            border: 1px solid #ccc;
-            background-color: #f0f0f0;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
+```html
+---
+layout: default
+title: Okonkwo Moses Chukwuka
+description: Moses Chukwuka's website
+---
 
-<div class="container">
-    <div class="toggle-button" onclick="toggleLanguage()">Change Language</div>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="/static/css/styles.css" rel="stylesheet">
 
-    <header class="header">
-        <h2>Okonkwo Moses Chukwuka</h2>
-        <img src="static/MosesChuka-img.HEIC" alt="Moses Chukwuka Okonkwo" class="profile-img"/>
-    </header>
+<button onclick="toggleLanguage()">Toggle Language (English/中文)</button>
 
-    <div id="english-content">
-        <section class="contact">
-            <h2>Contact</h2>
-            [cite_start]<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com [cite: 6]</p>
-            <p><strong>Tel:</strong> 0086-151-972-70-103; [cite_start]0086-177-435-075-22 [cite: 6]</p>
-            <div class="links">
-                <a href="https://www.facebook.com/ChukwukaOkonkwo">Facebook</a> |
-                <a href="https://www.researchgate.net/profile/Moses-Okonkwo-5">ResearchGate</a>
-            </div>
-        </section>
+<div class="container" id="en">
+<header class="header">
+<h1>Okonkwo Moses Chukwuka</h1>
+<img src="/static/MosesChuka-img.HEIC" alt="Okonkwo Moses Chukwuka" class="profile-img"/>
+</header>
 
-        <section class="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <div>
-                    <h3>Zhejiang University, China</h3>
-                    [cite_start]<p>PhD in Autonomous Robotics and AI (2024 - Present) [cite: 36]</p>
-                </div>
-            </div>
-            <div class="education-item">
-                <div>
-                    <h3>Shenyang University of Technology, China</h3>
-                    [cite_start]<p>Masters in Electrical Engineering with focus on Robotics and AI (2021 - 2024) [cite: 30]</p>
-                </div>
-            </div>
-            <div class="education-item">
-                <div>
-                    <h3>Xiangtan University, China</h3>
-                    [cite_start]<p>Bachelor of Engineering in Electronic Information Engineering (2017 - 2021) [cite: 26]</p>
-                </div>
-            </div>
-        </section>
+<section class="about">
+<p>I am a PhD student in Autonomous Robotics and AI at Zhejiang University (World University Ranking 47th), Hangzhou, Zhejiang, China.</p>
+<p>Prior to ZJU, I earned a Master's degree in Electrical Engineering with focus on Robotics and AI from Shenyang University of Technology, and a Bachelor's degree in Electronic Information Engineering from Xiangtan University.</p>
+<p>Beyond work, I enjoy photography and video making, playing basketball, and reading.</p>
 
-        <section class="work-experience">
-            <h2>Work Experience & Training</h2>
-            <div class="section-item">
-                <h3>Northeast University Perception Research Lab (Internship)</h3>
-                [cite_start]<p><strong>2023 - Present</strong> [cite: 72]</p>
-                <ul>
-                    [cite_start]<li>Training of crop row detection deep learning models [cite: 73]</li>
-                    [cite_start]<li>Training of deep learning models for farm scene panoptic segmentation [cite: 74, 75]</li>
-                    [cite_start]<li>Deployment of deep learning models using Pytorch and ROS for robust visual navigation of Agricultural Robots [cite: 76]</li>
-                    [cite_start]<li>Visual Navigation: ORB-SLAM(2/3) [cite: 78]</li>
-                </ul>
-            </div>
-            <div class="section-item">
-                <h3>Xiangtan Shenzhou Special Cables Co., Ltd.</h3>
-                [cite_start]<p><strong>2018</strong> [cite: 68, 69]</p>
-            </div>
-        </section>
+<div class="links">
+<a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">CV</a> |
+<a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> |
+<a href="https://www.facebook.com/ChukwukaOkonkwo">Facebook</a>
+</div>
+</section>
 
-        <section class="publications">
-            <h2>Papers and Publications</h2>
-            <div class="section-item">
-                <p><strong>2024:</strong> Yizhen Sun, Junyou Yang, Donghui Zhao, Moses Chukwuka Okonkwo, Jianmin Zhang, Shuoyu Wang, and Yang Liu. [cite_start]<em>Enhancing Stability and Safety: A Novel Multi-constraint Model Predictive Control Approach for Forklift Trajectory.</em> IET Cyber-Systems and Robotics (Under-Review) [cite: 51, 52, 53]</p>
-            </div>
-            <div class="section-item">
-                <p><strong>2024:</strong> Moses Chukwuka Okonkwo, Junyou Yang, Yizhen Sun, Guang Yang, Fausto Pedro García Márquez. [cite_start]<em>RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors.</em> IEEE ACCESS. [cite: 54, 55]</p>
-            </div>
-            <div class="section-item">
-                <p><strong>2022:</strong> Donghui Zhao, Wei Wang, Moses Chukwuka Okonkwo, Zihao Yang, Junyou Yang and Houde Liu. [cite_start]<em>A Safe and Compliant Noncontact Interactive Approach for Wheeled Walking Aid Robot.</em> Computational Intelligence and Neuroscience Journals. [cite: 56, 57]</p>
-            </div>
-        </section>
+<section class="contact">
+<h2>Contact</h2>
+<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com</p>
+<p><strong>Phone:</strong> 0086-151-972-70-103; 0086-177-435-075-22</p>
+<div class="links">
+<a href="https://www.facebook.com/ChukwukaOkonkwo">Facebook</a> |
+<a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a>
+</div>
+</section>
 
-        <section class="skills">
-            <h2>Engineering Field (Skills)</h2>
-            <ul>
-                [cite_start]<li>C/C++ programming Language (STL, Eigen, Pangolin, OpenCV) [cite: 105]</li>
-                [cite_start]<li>MATLAB [cite: 107]</li>
-                [cite_start]<li>Embedded Systems (STm32/8051) [cite: 108]</li>
-                [cite_start]<li>ROS [cite: 109]</li>
-                [cite_start]<li>Python (OpenCV, OpenMMLab, Pytorch) [cite: 112]</li>
-                [cite_start]<li>Linux(Ubuntu) [cite: 113]</li>
-                [cite_start]<li>Simultaneous Localization and Mapping (SLAM) [cite: 117]</li>
-            </ul>
-        </section>
+<section class="updates">
+<h2>Recent Updates</h2>
+<ul>
+<li><strong>2024-Present</strong> – PhD in Autonomous Robotics and AI at Zhejiang University.</li>
+<li><strong>2024</strong> – Paper under review: Enhancing Stability and Safety: A Novel Multi-constraint Model Predictive Control Approach for Forklift Trajectory. IET Cyber-Systems and Robotics.</li>
+<li><strong>2024</strong> – Published: RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors. IEEE ACCESS.</li>
+<li><strong>2023-Present</strong> – Internship at Northeast University Perception Research Lab.</li>
+<li><strong>2022</strong> – Published: A Safe and Compliant Noncontact Interactive Approach for Wheeled Walking Aid Robot. Computational Intelligence and Neuroscience Journals.</li>
+</ul>
+</section>
 
-        <section class="honors-awards">
-            <h2>Honours, Certificates and Awards</h2>
-            <ul>
-                [cite_start]<li>Chinese Government Scholarship CSC, Shenyang University of Technology (2021) [cite: 66]</li>
-                [cite_start]<li>Chinese College Students Mechanical Engineering Innovation and Creativity Competition Second Prize (2020) [cite: 66]</li>
-                [cite_start]<li>Hunan Government Scholarship for International Students (2019, 2018) [cite: 66]</li>
-                [cite_start]<li>Xiangtan University Scholarship for Outstanding International Students (2019) [cite: 66]</li>
-                [cite_start]<li>Chinese Speech Contest for Foreigners in Xiangtan - Second Position (2017) [cite: 66]</li>
-                [cite_start]<li>Certificate of Proficiency, HSK level IV (2017) [cite: 66]</li>
-            </ul>
-        </section>
-    </div>
+<section class="research">
+<h2>Research</h2>
+<div class="research-item">
+<div class="research-content">
+<h3>Enhancing Stability and Safety: A Novel Multi-constraint Model Predictive Control Approach for Forklift Trajectory</h3>
+<p><em>Yizhen Sun, Junyou Yang, Donghui Zhao, Moses Chukwuka Okonkwo, Jianmin Zhang, Shuoyu Wang, Yang Liu</em><br><strong>IET Cyber-Systems and Robotics (Under Review, 2024)</strong></p>
+</div>
+</div>
+<div class="research-item">
+<div class="research-content">
+<h3>RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors</h3>
+<p><em>Moses Chukwuka Okonkwo, Junyou Yang, Yizhen Sun, Guang Yang, Fausto Pedro García Márquez</em><br><strong>IEEE ACCESS (2024)</strong><br><a href="http://dx.doi.org/10.1109/ACCESS.2024.3368859">Link</a></p>
+</div>
+</div>
+<div class="research-item">
+<div class="research-content">
+<h3>A Safe and Compliant Noncontact Interactive Approach for Wheeled Walking Aid Robot</h3>
+<p><em>Donghui Zhao, Wei Wang, Moses Chukwuka Okonkwo, Zihao Yang, Junyou Yang, Houde Liu</em><br><strong>Computational Intelligence and Neuroscience Journals (2022)</strong><br><a href="http://dx.doi.org/10.1155/2022/3033920">Link</a></p>
+</div>
+</div>
+<div class="research-item">
+<div class="research-content">
+<h3>A novel method for asynchronous source localisation based on time of arrival measurements</h3>
+<p><em>Huijie Zhu, Sheng Liu, Wei Xu, Zhiqiang Yao, Moses Chukwuka Okonkwo, Zheng Peng</em><br><strong>International Journal of Distributed Sensor Networks (2020)</strong><br><a href="http://dx.doi.org/10.1177/15501477211053706">Link</a></p>
+</div>
+</div>
+<div class="research-item">
+<div class="research-content">
+<h3>Research on Selection Method of Mobile Communication Signal Location Source</h3>
+<p><em>Huijie Zhu, Wei Xu, Yalou Sang, Zhiqiang Yao, Limei Liu, Moses Chukwuka Okonkwo</em><br><strong>IEEE/ICACT2021 (2020)</strong></p>
+</div>
+</div>
+</section>
 
-    <div id="chinese-content" style="display: none;">
-        <section class="contact">
-            <h2>联系方式</h2>
-            [cite_start]<p><strong>电子邮件:</strong> chukwukaokonkwo8@gmail.com [cite: 6]</p>
-            <p><strong>电话:</strong> 0086-151-972-70-103; [cite_start]0086-177-435-075-22 [cite: 6]</p>
-            <div class="links">
-                <a href="https://www.facebook.com/ChukwukaOkonkwo">Facebook</a> |
-                <a href="https://www.researchgate.net/profile/Moses-Okonkwo-5">ResearchGate</a>
-            </div>
-        </section>
+<section class="projects">
+<h2>Projects</h2>
+<div class="project-item">
+<h3>Robust Keyframe segmentation of visual Object-SLAM Based on Deepshape priors (ORBSLAM2, DeepSDF, YOLOv8/RTM-Det)</h3>
+<p><em>2023, MSc Project (in-progress)</em></p>
+</div>
+<div class="project-item">
+<h3>Indoor object real-time recognition based on Neural Networks (Yolov5)</h3>
+<p><em>2022</em></p>
+</div>
+<div class="project-item">
+<h3>STM32 based mobile car with PID controlled motors</h3>
+<p><em>2021, BSc Project</em></p>
+</div>
+<div class="project-item">
+<h3>Servo motor PID speed control</h3>
+<p><em>2021</em></p>
+</div>
+<div class="project-item">
+<h3>Display of IMU and GPS sensor data using STM32 embedded system</h3>
+<p><em>2020</em></p>
+</div>
+<div class="project-item">
+<h3>Sound Detection Reading Glass for Deaf People</h3>
+<p><em>2020, Team</em></p>
+</div>
+<div class="project-item">
+<h3>Time based stepper motor control for dressing robot</h3>
+<p><em>2020</em></p>
+</div>
+<div class="project-item">
+<h3>51 McU Line tracking mobile car based on photo-resistors</h3>
+<p><em>2019</em></p>
+</div>
+<div class="project-item">
+<h3>Oscillator based Clock and Alarm using 8051 McU</h3>
+<p><em>2019</em></p>
+</div>
+</section>
 
-        <section class="education">
-            <h2>教育背景</h2>
-            <div class="education-item">
-                <div>
-                    <h3>浙江大学，中国</h3>
-                    [cite_start]<p>自主机器人与人工智能博士 (2024年至今) [cite: 36]</p>
-                </div>
-            </div>
-            <div class="education-item">
-                <div>
-                    <h3>沈阳工业大学，中国</h3>
-                    [cite_start]<p>电气工程硕士，主攻机器人与人工智能 (2021年 - 2024年) [cite: 30]</p>
-                </div>
-            </div>
-            <div class="education-item">
-                <div>
-                    <h3>湘潭大学，中国</h3>
-                    [cite_start]<p>电子信息工程学士 (2017年 - 2021年) [cite: 26]</p>
-                </div>
-            </div>
-        </section>
+<section class="work-experience">
+<h2>Work Experience</h2>
+<div class="work-item">
+<div class="work-content">
+<h3>Internship, Northeast University Perception Research Lab</h3>
+<p>Training of crop row detection deep learning models; Training of deep learning models for farm scene panoptic segmentation; Deployment of deep learning models using Pytorch and ROS for robust visual navigation of Agricultural Robots; Visual Navigation: ORB-SLAM(2/3).<br><em>2023-Present</em></p>
+</div>
+</div>
+<div class="work-item">
+<div class="work-content">
+<h3>Xiangtan University Summer Engineering Boot Camp</h3>
+<p>Embedded Systems and Programming.<br><em>2019</em></p>
+</div>
+</div>
+<div class="work-item">
+<div class="work-content">
+<h3>Xiangtan Shenzhou Special Cables Co., Ltd.</h3>
+<p>Xiangtan City, Hunan Province, P.R. China.<br><em>2018</em></p>
+</div>
+</div>
+</section>
 
-        <section class="work-experience">
-            <h2>工作经历与培训</h2>
-            <div class="section-item">
-                <h3>东北大学感知研究实验室 (实习)</h3>
-                [cite_start]<p><strong>2023年至今</strong> [cite: 72]</p>
-                <ul>
-                    [cite_start]<li>训练农作物行检测深度学习模型 [cite: 73]</li>
-                    [cite_start]<li>训练农场场景全景分割深度学习模型 [cite: 74, 75]</li>
-                    [cite_start]<li>使用Pytorch和ROS部署深度学习模型，用于农业机器人的稳健视觉导航 [cite: 76]</li>
-                    [cite_start]<li>视觉导航: ORB-SLAM(2/3) [cite: 78]</li>
-                </ul>
-            </div>
-            <div class="section-item">
-                <h3>湘潭神舟特种电缆有限公司</h3>
-                [cite_start]<p><strong>2018年</strong> [cite: 68, 69]</p>
-            </div>
-        </section>
+<section class="education">
+<h2>Education</h2>
+<div class="education-item">
+<div class="education-content">
+<h3>Zhejiang University</h3>
+<p>PhD in Autonomous Robotics and AI<br><em>2024-Present</em></p>
+</div>
+</div>
+<div class="education-item">
+<div class="education-content">
+<h3>Shenyang University of Technology</h3>
+<p>Master's in Electrical Engineering with focus on Robotics and AI<br><em>2021-2024</em></p>
+</div>
+</div>
+<div class="education-item">
+<div class="education-content">
+<h3>Xiangtan University</h3>
+<p>Bachelor of Engineering in Electronic Information Engineering<br><em>2017-2021</em></p>
+</div>
+</div>
+<div class="education-item">
+<div class="education-content">
+<h3>International Exchange College, Xiangtan University</h3>
+<p>Chinese Language Proficiency, HSK4<br><em>2016-2017</em></p>
+</div>
+</div>
+<div class="education-item">
+<div class="education-content">
+<h3>Marist Brothers’ Juniorate</h3>
+<p>W.A.S.S.C. and N.E.C.O.<br><em>2009-2015</em></p>
+</div>
+</div>
+</section>
 
-        <section class="publications">
-            <h2>论文与出版物</h2>
-            <div class="section-item">
-                <p><strong>2024年:</strong> Yizhen Sun, Junyou Yang, Donghui Zhao, Moses Chukwuka Okonkwo, Jianmin Zhang, Shuoyu Wang, and Yang Liu. [cite_start]<em>Enhancing Stability and Safety: A Novel Multi-constraint Model Predictive Control Approach for Forklift Trajectory.</em> IET Cyber-Systems and Robotics (审稿中) [cite: 51, 52, 53]</p>
-            </div>
-            <div class="section-item">
-                <p><strong>2024年:</strong> Moses Chukwuka Okonkwo, Junyou Yang, Yizhen Sun, Guang Yang, Fausto Pedro García Márquez. [cite_start]<em>RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors.</em> IEEE ACCESS. [cite: 54, 55]</p>
-            </div>
-            <div class="section-item">
-                <p><strong>2022年:</strong> Donghui Zhao, Wei Wang, Moses Chukwuka Okonkwo, Zihao Yang, Junyou Yang and Houde Liu. [cite_start]<em>A Safe and Compliant Noncontact Interactive Approach for Wheeled Walking Aid Robot.</em> Computational Intelligence and Neuroscience Journals. [cite: 56, 57]</p>
-            </div>
-        </section>
+<section class="teaching-service">
+<h2>Service</h2>
+<ul>
+<li>Member, Texas Instrument Research and Development Lab, <em>2018-2021</em></li>
+<li>Graduate Student Research Assistant (Navigation, Positioning, and Wireless Communication), <em>2018-2021</em></li>
+</ul>
+</section>
 
-        <section class="skills">
-            <h2>工程领域 (技能)</h2>
-            <ul>
-                [cite_start]<li>C/C++编程语言 (STL, Eigen, Pangolin, OpenCV) [cite: 105]</li>
-                [cite_start]<li>MATLAB [cite: 107]</li>
-                [cite_start]<li>嵌入式系统 (STm32/8051) [cite: 108]</li>
-                [cite_start]<li>ROS [cite: 109]</li>
-                [cite_start]<li>Python (OpenCV, OpenMMLab, Pytorch) [cite: 112]</li>
-                [cite_start]<li>Linux(Ubuntu) [cite: 113]</li>
-                [cite_start]<li>同步定位与建图 (SLAM) [cite: 117]</li>
-            </ul>
-        </section>
+<footer>© Okonkwo Moses Chukwuka | Last updated: August 2025</footer>
+</div>
 
-        <section class="honors-awards">
-            <h2>荣誉、证书与奖项</h2>
-            <ul>
-                [cite_start]<li>中国政府奖学金CSC，沈阳工业大学 (2021年) [cite: 66]</li>
-                [cite_start]<li>全国大学生机械工程创新创意大赛二等奖 (2020年) [cite: 66]</li>
-                [cite_start]<li>湖南省政府国际学生奖学金 (2019年, 2018年) [cite: 66]</li>
-                [cite_start]<li>湘潭大学优秀国际学生奖学金 (2019年) [cite: 66]</li>
-                [cite_start]<li>湘潭市外国人中文演讲比赛二等奖 (2017年) [cite: 66]</li>
-                [cite_start]<li>HSK四级证书 (2017年) [cite: 66]</li>
-            </ul>
-        </section>
-    </div>
+<div class="container" id="zh" style="display:none">
+<header class="header">
+<h1>Okonkwo Moses Chukwuka</h1>
+<img src="/static/MosesChuka-img.HEIC" alt="Okonkwo Moses Chukwuka" class="profile-img"/>
+</header>
 
+<section class="about">
+<p>我是浙江大学（世界大学排名第47位）自主机器人与人工智能博士生，中国浙江杭州。</p>
+<p>在浙大之前，我从沈阳工业大学获得电气工程硕士学位，重点关注机器人和人工智能，从湘潭大学获得电子信息工程学士学位。</p>
+<p>工作之外，我喜欢摄影和视频制作，打篮球，以及阅读。</p>
+
+<div class="links">
+<a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">简历</a> |
+<a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> |
+<a href="https://www.facebook.com/ChukwukaOkonkwo">Facebook</a>
+</div>
+</section>
+
+<section class="contact">
+<h2>联系方式</h2>
+<p><strong>电子邮件:</strong> chukwukaokonkwo8@gmail.com</p>
+<p><strong>电话:</strong> 0086-151-972-70-103; 0086-177-435-075-22</p>
+<div class="links">
+<a href="https://www.facebook.com/ChukwukaOkonkwo">Facebook</a> |
+<a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a>
+</div>
+</section>
+
+<section class="updates">
+<h2>最近更新</h2>
+<ul>
+<li><strong>2024-至今</strong> – 浙江大学自主机器人与人工智能博士。</li>
+<li><strong>2024</strong> – 论文审稿中：提升稳定性和安全性：叉车轨迹的新型多约束模型预测控制方法。IET Cyber-Systems and Robotics。</li>
+<li><strong>2024</strong> – 发表：RDSP-SLAM：基于深度形状先验的鲁棒物体感知SLAM。IEEE ACCESS。</li>
+<li><strong>2023-至今</strong> – 东北大学感知研究实验室实习。</li>
+<li><strong>2022</strong> – 发表：轮式助行机器人安全合规非接触交互方法。Computational Intelligence and Neuroscience Journals。</li>
+</ul>
+</section>
+
+<section class="research">
+<h2>研究</h2>
+<div class="research-item">
+<div class="research-content">
+<h3>提升稳定性和安全性：叉车轨迹的新型多约束模型预测控制方法</h3>
+<p><em>Yizhen Sun, Junyou Yang, Donghui Zhao, Moses Chukwuka Okonkwo, Jianmin Zhang, Shuoyu Wang, Yang Liu</em><br><strong>IET Cyber-Systems and Robotics (审稿中, 2024)</strong></p>
+</div>
+</div>
+<div class="research-item">
+<div class="research-content">
+<h3>RDSP-SLAM：基于深度形状先验的鲁棒物体感知SLAM</h3>
+<p><em>Moses Chukwuka Okonkwo, Junyou Yang, Yizhen Sun, Guang Yang, Fausto Pedro García Márquez</em><br><strong>IEEE ACCESS (2024)</strong><br><a href="http://dx.doi.org/10.1109/ACCESS.2024.3368859">链接</a></p>
+</div>
+</div>
+<div class="research-item">
+<div class="research-content">
+<h3>轮式助行机器人安全合规非接触交互方法</h3>
+<p><em>Donghui Zhao, Wei Wang, Moses Chukwuka Okonkwo, Zihao Yang, Junyou Yang, Houde Liu</em><br><strong>Computational Intelligence and Neuroscience Journals (2022)</strong><br><a href="http://dx.doi.org/10.1155/2022/3033920">链接</a></p>
+</div>
+</div>
+<div class="research-item">
+<div class="research-content">
+<h3>基于到达时间测量的异步源定位新型方法</h3>
+<p><em>Huijie Zhu, Sheng Liu, Wei Xu, Zhiqiang Yao, Moses Chukwuka Okonkwo, Zheng Peng</em><br><strong>International Journal of Distributed Sensor Networks (2020)</strong><br><a href="http://dx.doi.org/10.1177/15501477211053706">链接</a></p>
+</div>
+</div>
+<div class="research-item">
+<div class="research-content">
+<h3>移动通信信号位置源选择方法研究</h3>
+<p><em>Huijie Zhu, Wei Xu, Yalou Sang, Zhiqiang Yao, Limei Liu, Moses Chukwuka Okonkwo</em><br><strong>IEEE/ICACT2021 (2020)</strong></p>
+</div>
+</div>
+</section>
+
+<section class="projects">
+<h2>项目</h2>
+<div class="project-item">
+<h3>基于深度形状先验的视觉物体SLAM鲁棒关键帧分割 (ORBSLAM2, DeepSDF, YOLOv8/RTM-Det)</h3>
+<p><em>2023, 硕士项目 (进行中)</em></p>
+</div>
+<div class="project-item">
+<h3>基于神经网络的室内物体实时识别 (Yolov5)</h3>
+<p><em>2022</em></p>
+</div>
+<div class="project-item">
+<h3>基于STM32的PID控制电机移动车</h3>
+<p><em>2021, 本科项目</em></p>
+</div>
+<div class="project-item">
+<h3>伺服电机PID速度控制</h3>
+<p><em>2021</em></p>
+</div>
+<div class="project-item">
+<h3>使用STM32嵌入式系统显示IMU和GPS传感器数据</h3>
+<p><em>2020</em></p>
+</div>
+<div class="project-item">
+<h3>聋人声音检测阅读眼镜</h3>
+<p><em>2020, 团队</em></p>
+</div>
+<div class="project-item">
+<h3>基于时间的步进电机控制用于穿衣机器人</h3>
+<p><em>2020</em></p>
+</div>
+<div class="project-item">
+<h3>基于光敏电阻的51 McU线跟踪移动车</h3>
+<p><em>2019</em></p>
+</div>
+<div class="project-item">
+<h3>使用8051 McU的振荡器时钟和闹钟</h3>
+<p><em>2019</em></p>
+</div>
+</section>
+
+<section class="work-experience">
+<h2>工作经验</h2>
+<div class="work-item">
+<div class="work-content">
+<h3>东北大学感知研究实验室实习</h3>
+<p>作物行检测深度学习模型训练；农场场景全景分割深度学习模型训练；使用Pytorch和ROS部署深度学习模型用于农业机器人的鲁棒视觉导航；视觉导航：ORB-SLAM(2/3)。<br><em>2023-至今</em></p>
+</div>
+</div>
+<div class="work-item">
+<div class="work-content">
+<h3>湘潭大学夏季工程训练营</h3>
+<p>嵌入式系统和编程。<br><em>2019</em></p>
+</div>
+</div>
+<div class="work-item">
+<div class="work-content">
+<h3>湘潭神舟特种电缆有限公司</h3>
+<p>湖南省湘潭市，中国。<br><em>2018</em></p>
+</div>
+</div>
+</section>
+
+<section class="education">
+<h2>教育背景</h2>
+<div class="education-item">
+<div class="education-content">
+<h3>浙江大学</h3>
+<p>自主机器人与人工智能博士<br><em>2024-至今</em></p>
+</div>
+</div>
+<div class="education-item">
+<div class="education-content">
+<h3>沈阳工业大学</h3>
+<p>电气工程硕士，重点机器人和人工智能<br><em>2021-2024</em></p>
+</div>
+</div>
+<div class="education-item">
+<div class="education-content">
+<h3>湘潭大学</h3>
+<p>电子信息工程学士<br><em>2017-2021</em></p>
+</div>
+</div>
+<div class="education-item">
+<div class="education-content">
+<h3>湘潭大学国际交流学院</h3>
+<p>汉语水平考试HSK4<br><em>2016-2017</em></p>
+</div>
+</div>
+<div class="education-item">
+<div class="education-content">
+<h3>Marist Brothers’ Juniorate</h3>
+<p>W.A.S.S.C. 和 N.E.C.O.<br><em>2009-2015</em></p>
+</div>
+</div>
+</section>
+
+<section class="teaching-service">
+<h2>服务</h2>
+<ul>
+<li>成员，Texas Instrument Research and Development Lab, <em>2018-2021</em></li>
+<li>研究生研究助理（导航、定位和无线通信）, <em>2018-2021</em></li>
+</ul>
+</section>
+
+<footer>© Okonkwo Moses Chukwuka | 最后更新: 2025年8月</footer>
 </div>
 
 <script>
-    function toggleLanguage() {
-        const englishContent = document.getElementById('english-content');
-        const chineseContent = document.getElementById('chinese-content');
-        const toggleButton = document.querySelector('.toggle-button');
-
-        if (englishContent.style.display === 'none') {
-            englishContent.style.display = 'block';
-            chineseContent.style.display = 'none';
-            toggleButton.textContent = 'Change to Chinese';
-        } else {
-            englishContent.style.display = 'none';
-            chineseContent.style.display = 'block';
-            toggleButton.textContent = 'Change to English';
-        }
-    }
+let lang = 'en';
+function toggleLanguage() {
+  lang = lang === 'en' ? 'zh' : 'en';
+  document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+  document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
+}
 </script>
-
-</body>
-</html>
+```
