@@ -17,25 +17,21 @@ description: Moses Chukwuka's website
 </header>
 
 <section class="about">
-<p>I am a PhD student in Autonomous Robotics and AI at Zhejiang University (World University Ranking 47th), Hangzhou, Zhejiang, China.</p>
+<p>I am a PhD student with interest in Computer Vision and Perception for Autonomous Systems at Zhejiang University, School of Electrical Engineering, Hangzhou, Zhejiang, China. Currently, I am looking into improving the environmental perception of robots.</p>
 <p>Prior to ZJU, I earned a Master's degree in Electrical Engineering with focus on Robotics and AI from Shenyang University of Technology, and a Bachelor's degree in Electronic Information Engineering from Xiangtan University.</p>
-<p>Beyond work, I enjoy photography and video making, playing basketball, and reading.</p>
-
-<div class="links">
-<a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">CV</a> |
-<a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> |
-<a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
+<p>Beyond work, I enjoy having interesting conversation with people, walking and reading.</p>
 </div>
 </section>
 
 <section class="contact">
 <h2>Contact</h2>
-<p><strong>Email:</strong> chukwukaokonkwo@zju.edu.cn
-<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com</p>
+<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com; chukwukaokonkwo@zju.edu.cn</p>
 <p><strong>Phone:</strong> 0086-151-972-70-103; 0086-177-435-075-22</p>
 <div class="links">
-<a href="https://www.facebook.com/ChukwukaOkonkwo">Facebook</a> |
-<a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a>
+<a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">CV</a> |
+<a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> |
+<a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
+<a href="https://www.linkedin.com/in/moses-okonkwo-02b079130">Facebook</a>
 </div>
 </section>
 
