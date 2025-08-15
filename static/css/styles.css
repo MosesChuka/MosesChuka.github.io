@@ -9,16 +9,28 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   color: #ffffff;
-  background: linear-gradient(135deg, #000000 0%, #0a0a0a 50%, #000000 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 50%, #1a1a1a 100%);
   min-height: 100vh;
   scroll-behavior: smooth;
+  transition: all 0.3s ease;
+}
+
+body.light-mode {
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 50%, #f5f5f5 100%);
+  color: #333333;
 }
 
 .container {
+  width: 70%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
-  background-color: #000000;
+  background-color: #1a1a1a;
+  transition: all 0.3s ease;
+}
+
+body.light-mode .container {
+  background-color: #ffffff;
 }
 
 /* Header */
@@ -29,10 +41,17 @@ body {
   text-align: center;
   margin-bottom: 3rem;
   padding: 2rem;
-  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
   border-radius: 15px;
   box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+body.light-mode .header {
+  background: linear-gradient(135deg, #e8e8e8 0%, #f0f0f0 100%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 .header h1 {
@@ -41,6 +60,12 @@ body {
   color: #ffffff;
   margin-bottom: 1rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+body.light-mode .header h1 {
+  color: #333333;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .profile-img {
@@ -63,10 +88,17 @@ body {
 section {
   margin-bottom: 3rem;
   padding: 2rem;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+body.light-mode section {
+  background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -78,6 +110,12 @@ h2 {
   padding-bottom: 0.8rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   position: relative;
+  transition: all 0.3s ease;
+}
+
+body.light-mode h2 {
+  color: #333333;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2::after {
@@ -96,6 +134,11 @@ p {
   margin-bottom: 1.2rem;
   line-height: 1.7;
   color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+body.light-mode p {
+  color: #555555;
 }
 
 .links a {
@@ -122,7 +165,7 @@ p {
   display: flex;
   flex-direction: column;
   margin-bottom: 2.5rem;
-  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1);
@@ -130,6 +173,15 @@ p {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+}
+
+body.light-mode .research-item, 
+body.light-mode .work-item, 
+body.light-mode .education-item, 
+body.light-mode .project-item {
+  background: linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 100%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .research-item::before, .work-item::before, .education-item::before, .project-item::before {
@@ -169,6 +221,15 @@ p {
   margin-bottom: 1rem;
   color: #ffffff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+body.light-mode .research-content h3, 
+body.light-mode .work-content h3, 
+body.light-mode .education-content h3, 
+body.light-mode .project-item h3 {
+  color: #333333;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .research-content a, .project-item a {
@@ -192,6 +253,11 @@ ul li {
   padding-left: 2rem;
   color: #e0e0e0;
   line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+body.light-mode ul li {
+  color: #555555;
 }
 
 ul li:before {
@@ -212,12 +278,20 @@ footer {
   margin-top: 3rem;
   padding: 2rem;
   border-top: 2px solid #333;
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
 }
 
-/* Language Toggle Button */
+body.light-mode footer {
+  background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
+  border-top: 2px solid #ddd;
+  color: #666666;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
 button {
   background: linear-gradient(135deg, #007bff 0%, #00d4ff 100%);
   color: white;
@@ -242,6 +316,53 @@ button:hover {
 
 button:active {
   transform: translateY(0);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  min-width: 120px;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.4);
+  background: linear-gradient(135deg, #e55a2b 0%, #e0851a 100%);
+}
+
+.theme-toggle.light {
+  background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+}
+
+.theme-toggle.light:hover {
+  background: linear-gradient(135deg, #5f4dd0 0%, #8b7ae6 100%);
+  box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
+}
+
+body.light-mode .theme-toggle {
+  background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+}
+
+body.light-mode .theme-toggle:hover {
+  background: linear-gradient(135deg, #5f4dd0 0%, #8b7ae6 100%);
+  box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
 }
 
 /* Responsive Design */
@@ -287,6 +408,7 @@ button:active {
 
 @media (max-width: 480px) {
   .container {
+    width: 80%;
     padding: 15px;
   }
 
@@ -308,5 +430,13 @@ button:active {
 
   .research-img, .work-img, .education-img {
     max-width: 100px;
+  }
+
+  .theme-toggle {
+    top: 15px;
+    right: 15px;
+    padding: 10px 14px;
+    font-size: 0.8rem;
+    min-width: 100px;
   }
 }

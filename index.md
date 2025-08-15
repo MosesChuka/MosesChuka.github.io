@@ -8,6 +8,7 @@ description: Moses Chukwuka's website
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 <link href="/static/css/styles.css" rel="stylesheet">
 
+<button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">🌙 Dark</button>
 <button style='padding: 5px 5px; border-radius: 6px;' onclick="toggleLanguage()">Toggle Language (English/中文)</button>
 
 <div class="container" id="en">
@@ -38,11 +39,9 @@ description: Moses Chukwuka's website
 <section class="updates">
 <h2>Recent Updates</h2>
 <ul>
+<li><strong>2025-Present</strong> – Visiting Student at WestLake University and AI at Zhejiang University.</li>
 <li><strong>2024-Present</strong> – PhD in Autonomous Robotics and AI at Zhejiang University.</li>
-<li><strong>2024</strong> – Paper under review: Enhancing Stability and Safety: A Novel Multi-constraint Model Predictive Control Approach for Forklift Trajectory. IET Cyber-Systems and Robotics.</li>
 <li><strong>2024</strong> – Published: RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors. IEEE ACCESS.</li>
-<li><strong>2023-Present</strong> – Internship at Northeast University Perception Research Lab.</li>
-<li><strong>2022</strong> – Published: A Safe and Compliant Noncontact Interactive Approach for Wheeled Walking Aid Robot. Computational Intelligence and Neuroscience Journals.</li>
 </ul>
 </section>
 
@@ -356,9 +355,41 @@ description: Moses Chukwuka's website
 
 <script>
 let lang = 'en';
+
+// Theme toggle functionality
+function toggleTheme() {
+  const body = document.body;
+  const themeToggle = document.getElementById('themeToggle');
+  
+  if (body.classList.contains('light-mode')) {
+    body.classList.remove('light-mode');
+    themeToggle.textContent = '🌙 Dark';
+    themeToggle.classList.remove('light');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    body.classList.add('light-mode');
+    themeToggle.textContent = '☀️ Light';
+    themeToggle.classList.add('light');
+    localStorage.setItem('theme', 'light');
+  }
+}
+
+// Language toggle functionality
 function toggleLanguage() {
   lang = lang === 'en' ? 'zh' : 'en';
   document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
   document.getElementById('zh').style.display = lang === 'zh' ? 'block' : 'none';
 }
+
+// Load saved theme on page load
+document.addEventListener('DOMContentLoaded', function() {
+  const savedTheme = localStorage.getItem('theme');
+  const themeToggle = document.getElementById('themeToggle');
+  
+  if (savedTheme === 'light') {
+    document.body.classList.add('light-mode');
+    themeToggle.textContent = '☀️ Light';
+    themeToggle.classList.add('light');
+  }
+});
 </script>
