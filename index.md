@@ -22,19 +22,16 @@ description: Moses Chukwuka's website
 <p>Prior to ZJU, I earned a Master's degree in Electrical Engineering with focus on Robotics and AI from Shenyang University of Technology, and a Bachelor's degree in Electronic Information Engineering from Xiangtan University.</p>
 <p>Beyond work, I enjoy having interesting conversation with people, walking and reading.</p>
 
-</section>
-
-<section class="contact">
-<h2>Contact</h2>
-<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com; chukwukaokonkwo@zju.edu.cn</p>
-<p><strong>Phone:</strong> 0086-151-972-70-103; 0086-177-435-075-22</p>
-<div class="links">
-<a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">CV</a> 
-<a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> 
-<a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
-
+<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
+<div style='align-items: center; display:block;' class="links">
+    <a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">CV</a> 
+    <a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> 
+    <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
 </div>
+
 </section>
+
+
 
 <section class="updates">
 <h2>Recent Updates</h2>
