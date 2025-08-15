@@ -1,9 +1,9 @@
 
----
+<!-- ---
 layout: default
 title: Okonkwo Moses Chukwuka
 description: Moses Chukwuka's website
---- 
+---  -->
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 <link href="/static/css/styles.css" rel="stylesheet">
@@ -12,7 +12,7 @@ description: Moses Chukwuka's website
 
 <div class="container" id="en">
 <header class="header">
-<h1>Okonkwo Moses Chukwuka</h1>
+<h3>Okonkwo Moses Chukwuka</h3>
 <img src="/static/MosesChuka-img.HEIC" alt="Okonkwo Moses Chukwuka" class="profile-img"/>
 </header>
 
