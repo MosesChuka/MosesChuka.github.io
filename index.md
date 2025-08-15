@@ -9,7 +9,7 @@ description: Moses Chukwuka's website
 <link href="/static/css/styles.css" rel="stylesheet">
 
 <button class="theme-toggle" onclick="toggleTheme()" id="themeToggle">🌙 Dark</button>
-<button style='padding: 5px 5px; border-radius: 6px;' onclick="toggleLanguage()">Toggle Language (English/中文)</button>
+<button style='padding: 5px 5px; border-radius: 6px;' onclick="toggleLanguage()">English / 中文)</button>
 
 <div class="container" id="en">
 <header class="header">
@@ -363,12 +363,12 @@ function toggleTheme() {
   
   if (body.classList.contains('light-mode')) {
     body.classList.remove('light-mode');
-    themeToggle.textContent = '🌙 Dark';
+    themeToggle.textContent = '🌙';
     themeToggle.classList.remove('light');
     localStorage.setItem('theme', 'dark');
   } else {
     body.classList.add('light-mode');
-    themeToggle.textContent = '☀️ Light';
+    themeToggle.textContent = '☀️';
     themeToggle.classList.add('light');
     localStorage.setItem('theme', 'light');
   }
@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if (savedTheme === 'light') {
     document.body.classList.add('light-mode');
-    themeToggle.textContent = '☀️ Light';
+    themeToggle.textContent = '☀️';
     themeToggle.classList.add('light');
   }
 });
