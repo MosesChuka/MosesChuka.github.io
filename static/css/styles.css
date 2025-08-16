@@ -533,7 +533,7 @@ body.light-mode .teaching-service ul li strong {
 .links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
   margin-top: 1rem;
 }
