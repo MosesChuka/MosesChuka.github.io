@@ -73,13 +73,13 @@ description: Moses Chukwuka's website
 <div class="work-item">
 <div class="work-content">
 <h3>Internship, Northeast University Perception Research Lab</h3>
-<p>Training of crop row detection deep learning models; Training of deep learning models for farm scene panoptic segmentation; Deployment of deep learning models using Pytorch and ROS for robust visual navigation of Agricultural Robots; Visual Navigation: ORB-SLAM(2/3).<br><em>2023-Present</em></p>
+<p>Training of crop row detection deep learning models; Training of deep learning models for farm scene panoptic segmentation; Deployment of deep learning models for robust visual navigation of Agricultural Robots;[See Project on Trajectory Estimation].<br><em>2023-2024</em></p>
 </div>
 </div>
 <div class="work-item">
 <div class="work-content">
 <h3>Xiangtan University Summer Engineering Boot Camp</h3>
-<p>Embedded Systems and Programming.<br><em>2019</em></p>
+<p>Embedded Systems and Programming in C.<br><em>2019</em></p>
 </div>
 </div>
 </section>
