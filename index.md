@@ -18,9 +18,9 @@ description: Moses Chukwuka's website
 </header>
 
 <section class="about">
-<p>I am a PhD student with major interest in Perception for Autonomous Systems at Zhejiang University, School of Electrical Engineering, Hangzhou, Zhejiang, China. Currently, I am looking into improving the environment understanding of robots.</p>
-<p>Before to ZJU, I earned a Master's degree in Electrical Engineering at Shenyang University of Technology, where I worked on applying perceptual deep learning models to Visual-SLAM frameoworks. My Bachelor's degree was in Electronic Information Engineering from Xiangtan University. I mostly built automated system Using C and embeded system STM32s and 51s.</p>
-<p>Beyond work, I enjoy having interesting conversation with people, walking and reading.</p>
+<p>I am a PhD student with major interests in Perception for Autonomous Systems at Zhejiang University, School of Electrical Engineering, Hangzhou, Zhejiang, China. Currently, I am looking into improving the environment understanding of robots.</p>
+<p>Before coming to ZJU, I earned a Master's degree in Electrical Engineering at Shenyang University of Technology, where I worked on applying perceptual deep learning models to Visual-SLAM frameworks. My Bachelor's degree was in Electronic Information Engineering from Xiangtan University. I mostly built automated systems using C and embedded systems STM32s and 51s.</p>
+<p>Beyond work, I enjoy having interesting conversations with people, walking and reading.</p>
 
 </section>
 
@@ -44,7 +44,7 @@ description: Moses Chukwuka's website
 <h2>Recent Updates</h2>
 <ul>
 <li><strong class="feature-date">2025-Present</strong> – Visiting Student at WestLake University</li>
-<li><strong class="feature-date">2024-Present</strong> – PhD in Perception for Autonomous Systems at Zhejiang University.</li>
+<li><strong class="feature-date">2024-Present</strong> – PhD in Perception for Autonomous Systems at Zhejiang University</li>
 <li><strong class="feature-date">2024</strong> – Published: RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors. IEEE ACCESS.</li>
 </ul>
 </section>
@@ -64,7 +64,7 @@ description: Moses Chukwuka's website
 </section>
 
 <section class="research">
-  <h2>Project</h2>
+  <h2>Projects</h2>
   <div class="research-item">
   <img src="/static/AgroNav.gif" alt="AgroNav" class="research-img">
   <div class="research-content">
@@ -95,13 +95,13 @@ description: Moses Chukwuka's website
 <div class="work-item">
 <div class="work-content">
 <h3>Internship, Northeast University Perception Research Lab</h3>
-<p>Training of crop row detection deep learning models; Training of deep learning models for farm scene panoptic segmentation; Deployment of deep learning models for robust visual navigation of Agricultural Robots;[See Project on Trajectory Estimation].<br><em>2023-2024</em></p>
+<p>Training of crop row detection deep learning models; training of deep learning models for farm scene panoptic segmentation; deployment of deep learning models for robust visual navigation of agricultural robots; [See Project on Trajectory Estimation].<br><em>2023-2024</em></p>
 </div>
 </div>
 <div class="work-item">
 <div class="work-content">
 <h3>Xiangtan University Summer Engineering Boot Camp</h3>
-<p>Embedded Systems and Programming in C.<br><em>2019</em></p>
+<p>Embedded Systems and Programming in C<br><em>2019</em></p>
 </div>
 </div>
 </section>
@@ -197,7 +197,7 @@ description: Moses Chukwuka's website
 <h2>最近更新</h2>
 <ul>
 <li><strong class="feature-date">2025-至今</strong> – 西湖大学访问学生</li>
-<li><strong class="feature-date">2024-至今</strong> – 浙江大学自主机器人与人工智能博士。</li>
+<li><strong class="feature-date">2024-至今</strong> – 浙江大学自主机器人与人工智能博士</li>
 <li><strong class="feature-date">2024</strong> – 发表：RDSP-SLAM：基于深度形状先验的鲁棒物体感知SLAM。IEEE ACCESS。</li>
 </ul>
 </section>
