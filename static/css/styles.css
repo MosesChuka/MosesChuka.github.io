@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+html {
+  background: #000000;
+  transition: all 0.3s ease;
+}
+
+html.light-mode {
+  background: #ffffff;
+}
+
 body {
   font-family: "Helvetica Neue-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   line-height: 1.6;
@@ -96,6 +105,33 @@ section {
 body.light-mode section {
   background: transparent;
   border: none;
+}
+
+/* Ensure full background coverage for dark mode */
+body, html {
+  background-attachment: fixed;
+}
+
+/* Additional dark mode background fixes */
+body:not(.light-mode) {
+  background: #000000;
+}
+
+body:not(.light-mode) .container {
+  background: #000000;
+}
+
+/* Ensure proper contrast in dark mode */
+body:not(.light-mode) section {
+  background: transparent;
+}
+
+body:not(.light-mode) .research-item,
+body:not(.light-mode) .work-item,
+body:not(.light-mode) .education-item,
+body:not(.light-mode) .project-item {
+  background: rgba(26, 26, 26, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 h2 {

@@ -326,16 +326,19 @@ let lang = 'en';
 // Theme toggle functionality
 function toggleTheme() {
   const body = document.body;
+  const html = document.documentElement;
   const themeToggle = document.getElementById('themeToggle');
   
   if (body.classList.contains('light-mode')) {
     body.classList.remove('light-mode');
-    themeToggle.textContent = '🌙';
+    html.classList.remove('light-mode');
+    themeToggle.textContent = '🌙 Dark';
     themeToggle.classList.remove('light');
     localStorage.setItem('theme', 'dark');
   } else {
     body.classList.add('light-mode');
-    themeToggle.textContent = '☀️';
+    html.classList.add('light-mode');
+    themeToggle.textContent = '☀️ Light';
     themeToggle.classList.add('light');
     localStorage.setItem('theme', 'light');
   }
@@ -355,7 +358,8 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if (savedTheme === 'light') {
     document.body.classList.add('light-mode');
-    themeToggle.textContent = '☀️';
+    document.documentElement.classList.add('light-mode');
+    themeToggle.textContent = '☀️ Light';
     themeToggle.classList.add('light');
   }
 });
