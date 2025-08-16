@@ -103,7 +103,7 @@ h2 {
   font-weight: 300;
   color: #ffffff;
   margin-bottom: 1.2rem;
-  border-bottom: none;
+  border-bottom: 2px solid #333333;
   padding-bottom: 0.8rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   position: relative;
@@ -113,10 +113,162 @@ h2 {
 body.light-mode h2 {
   color: #000000;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #e0e0e0;
 }
 
 h2::after {
-  content: none;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  border-radius: 1px;
+  transition: all 0.3s ease;
+}
+
+body.light-mode h2::after {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+}
+
+/* Special styling for Recent Updates section */
+.updates {
+  background: rgba(255, 107, 107, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 107, 107, 0.1);
+  margin-bottom: 2.5rem;
+}
+
+body.light-mode .updates {
+  background: rgba(255, 107, 107, 0.03);
+  border: 1px solid rgba(255, 107, 107, 0.15);
+}
+
+.updates h2::after {
+  background: linear-gradient(90deg, #ff6b6b, #ee5a24);
+  width: 80px;
+}
+
+body.light-mode .updates h2::after {
+  background: linear-gradient(90deg, #ff6b6b, #ee5a24);
+}
+
+/* Special styling for Research section */
+.research {
+  background: rgba(78, 205, 196, 0.03);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(78, 205, 196, 0.1);
+  margin-bottom: 2rem;
+}
+
+body.light-mode .research {
+  background: rgba(78, 205, 196, 0.02);
+  border: 1px solid rgba(78, 205, 196, 0.15);
+}
+
+.research h2::after {
+  background: linear-gradient(90deg, #4ecdc4, #44a08d);
+  width: 70px;
+}
+
+body.light-mode .research h2::after {
+  background: linear-gradient(90deg, #4ecdc4, #44a08d);
+}
+
+/* Special styling for Project section */
+.project {
+  background: rgba(69, 183, 209, 0.03);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(69, 183, 209, 0.1);
+  margin-bottom: 2rem;
+}
+
+body.light-mode .project {
+  background: rgba(69, 183, 209, 0.02);
+  border: 1px solid rgba(69, 183, 209, 0.15);
+}
+
+.project h2::after {
+  background: linear-gradient(90deg, #45b7d1, #96c93d);
+  width: 75px;
+}
+
+body.light-mode .project h2::after {
+  background: linear-gradient(90deg, #45b7d1, #96c93d);
+}
+
+/* Special styling for Work Experience section */
+.work-experience {
+  background: rgba(243, 156, 18, 0.03);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(243, 156, 18, 0.1);
+  margin-bottom: 2rem;
+}
+
+body.light-mode .work-experience {
+  background: rgba(243, 156, 18, 0.02);
+  border: 1px solid rgba(243, 156, 18, 0.15);
+}
+
+.work-experience h2::after {
+  background: linear-gradient(90deg, #f39c12, #e67e22);
+  width: 90px;
+}
+
+body.light-mode .work-experience h2::after {
+  background: linear-gradient(90deg, #f39c12, #e67e22);
+}
+
+/* Special styling for Education section */
+.education {
+  background: rgba(155, 89, 182, 0.03);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(155, 89, 182, 0.1);
+  margin-bottom: 2rem;
+}
+
+body.light-mode .education {
+  background: rgba(155, 89, 182, 0.02);
+  border: 1px solid rgba(155, 89, 182, 0.15);
+}
+
+.education h2::after {
+  background: linear-gradient(90deg, #9b59b6, #8e44ad);
+  width: 85px;
+}
+
+body.light-mode .education h2::after {
+  background: linear-gradient(90deg, #9b59b6, #8e44ad);
+  width: 85px;
+}
+
+/* Special styling for Service section */
+.teaching-service {
+  background: rgba(231, 76, 60, 0.03);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(231, 76, 60, 0.1);
+  margin-bottom: 2rem;
+}
+
+body.light-mode .teaching-service {
+  background: rgba(231, 76, 60, 0.02);
+  border: 1px solid rgba(231, 76, 60, 0.15);
+}
+
+.teaching-service h2::after {
+  background: linear-gradient(90deg, #e74c3c, #c0392b);
+  width: 65px;
+}
+
+body.light-mode .teaching-service h2::after {
+  background: linear-gradient(90deg, #e74c3c, #c0392b);
 }
 
 p {
@@ -129,6 +281,78 @@ p {
 
 body.light-mode p {
   color: #000000;
+}
+
+/* Enhanced styling for Recent Updates list items */
+.updates ul li {
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border-left: 3px solid #ff6b6b;
+  transition: all 0.3s ease;
+}
+
+.updates ul li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+body.light-mode .updates ul li {
+  color: #333;
+  background: rgba(255, 107, 107, 0.05);
+  border-left: 3px solid #ff6b6b;
+}
+
+body.light-mode .updates ul li:hover {
+  background: rgba(255, 107, 107, 0.1);
+}
+
+.updates ul li strong {
+  color: #ff6b6b;
+  font-weight: 600;
+}
+
+body.light-mode .updates ul li strong {
+  color: #e74c3c;
+}
+
+/* Enhanced styling for Service section list items */
+.teaching-service ul li {
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border-left: 3px solid #e74c3c;
+  transition: all 0.3s ease;
+}
+
+.teaching-service ul li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+body.light-mode .teaching-service ul li {
+  color: #333;
+  background: rgba(231, 76, 60, 0.05);
+  border-left: 3px solid #e74c3c;
+}
+
+body.light-mode .teaching-service ul li:hover {
+  background: rgba(231, 76, 60, 0.1);
+}
+
+.teaching-service ul li strong {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+body.light-mode .teaching-service ul li strong {
+  color: #c0392b;
 }
 
 .links a {
@@ -158,10 +382,11 @@ body.light-mode .links a:hover {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
-  background-color: #fff;
+  background-color: #1a1a1a;
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
 }
 
@@ -171,6 +396,7 @@ body.light-mode .education-item,
 body.light-mode .project-item {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .research-item::before, .work-item::before, .education-item::before, .project-item::before {
@@ -179,7 +405,17 @@ body.light-mode .project-item {
 
 .research-item:hover, .work-item:hover, .education-item:hover, .project-item:hover {
   transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.light-mode .research-item:hover, 
+body.light-mode .work-item:hover, 
+body.light-mode .education-item:hover, 
+body.light-mode .project-item:hover {
+  transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .research-img, .work-img, .education-img {
@@ -199,6 +435,14 @@ body.light-mode .project-item {
   font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+body.light-mode .research-content h3, 
+body.light-mode .work-content h3, 
+body.light-mode .education-content h3, 
+body.light-mode .project-item h3 {
   color: #222;
 }
 
@@ -221,8 +465,13 @@ ul li {
   margin-bottom: 0.8rem;
   position: relative;
   padding-left: 1.5rem;
-  color: #333;
+  color: #e0e0e0;
   line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+body.light-mode ul li {
+  color: #333;
 }
 
 ul li:before {
