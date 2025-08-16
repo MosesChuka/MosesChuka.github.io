@@ -87,24 +87,36 @@ description: Moses Chukwuka's website
 <section class="education">
 <h2>Education</h2>
 <div class="education-item">
+<div class="education-logo">
+<img src="/static/ZJU-logo.png" alt="Zhejiang University Logo" class="university-logo"/>
+</div>
 <div class="education-content">
 <h3>Zhejiang University</h3>
 <p>PhD in Autonomous Robotics and AI<br><em>2024-Present</em></p>
 </div>
 </div>
 <div class="education-item">
+<div class="education-logo">
+<img src="/static/shenyang-logo.png" alt="Shenyang University of Technology Logo" class="university-logo"/>
+</div>
 <div class="education-content">
 <h3>Shenyang University of Technology</h3>
 <p>Master's in Electrical Engineering with focus on Robotics and AI<br><em>2021-2024</em></p>
 </div>
 </div>
 <div class="education-item">
+<div class="education-logo">
+<img src="/static/Xiangtan_University_logo.png" alt="Xiangtan University Logo" class="university-logo"/>
+</div>
 <div class="education-content">
 <h3>Xiangtan University</h3>
 <p>Bachelor of Engineering in Electronic Information Engineering<br><em>2017-2021</em></p>
 </div>
 </div>
 <div class="education-item">
+<div class="education-logo">
+<img src="/static/Xiangtan_University_logo.png" alt="Xiangtan University Logo" class="university-logo"/>
+</div>
 <div class="education-content">
 <h3>International Exchange College, Xiangtan University</h3>
 <p>Chinese Language Proficiency, HSK4<br><em>2016-2017</em></p>
@@ -260,24 +272,36 @@ description: Moses Chukwuka's website
 <section class="education">
 <h2>教育背景</h2>
 <div class="education-item">
+<div class="education-logo">
+<img src="/static/ZJU-logo.png" alt="浙江大学标志" class="university-logo"/>
+</div>
 <div class="education-content">
 <h3>浙江大学</h3>
 <p>自主机器人与人工智能博士<br><em>2024-至今</em></p>
 </div>
 </div>
 <div class="education-item">
+<div class="education-logo">
+<img src="/static/shenyang-logo.png" alt="沈阳工业大学标志" class="university-logo"/>
+</div>
 <div class="education-content">
 <h3>沈阳工业大学</h3>
 <p>电气工程硕士，重点机器人和人工智能<br><em>2021-2024</em></p>
 </div>
 </div>
 <div class="education-item">
+<div class="education-logo">
+<img src="/static/Xiangtan_University_logo.png" alt="湘潭大学标志" class="university-logo"/>
+</div>
 <div class="education-content">
 <h3>湘潭大学</h3>
 <p>电子信息工程学士<br><em>2017-2021</em></p>
 </div>
 </div>
 <div class="education-item">
+<div class="education-logo">
+<img src="/static/Xiangtan_University_logo.png" alt="湘潭大学标志" class="university-logo"/>
+</div>
 <div class="education-content">
 <h3>湘潭大学国际交流学院</h3>
 <p>汉语水平考试HSK4<br><em>2016-2017</em></p>
