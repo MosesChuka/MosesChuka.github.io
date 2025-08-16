@@ -57,7 +57,7 @@ description: Moses Chukwuka's website
   </div>
 </section>
 
-<section class="projects">
+<section class="research">
   <h2>Project</h2>
   <div class="research-item">
   <img src="/static/AgroNav.gif" alt="AgroNav" class="research-img">
