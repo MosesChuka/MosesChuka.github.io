@@ -530,26 +530,42 @@ body.light-mode .teaching-service ul li strong {
   color: inherit;
 }
 
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 .links a {
   color: #0066cc;
   text-decoration: none;
-  margin-right: 1.5rem;
+  margin: 0;
+  padding: 0.5rem 1rem;
   font-weight: 400;
   transition: all 0.3s ease;
+  border-radius: 8px;
+  background: rgba(0, 102, 204, 0.1);
 }
 
 .links a:hover {
   color: #0052a3;
   transform: translateY(-2px);
   text-decoration: none;
+  background: rgba(0, 102, 204, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
 }
 
 body.light-mode .links a {
   color: #0066cc;
+  background: rgba(0, 102, 204, 0.08);
 }
 
 body.light-mode .links a:hover {
   color: #0052a3;
+  background: rgba(0, 102, 204, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
 }
 
 /* Research and Other Items */
@@ -805,6 +821,13 @@ body.light-mode .theme-toggle:hover {
 /* Responsive Design */
 /* Mobile-first: Reduce font sizes by 5% for mobile devices */
 @media (max-width: 767px) {
+  .container {
+    width: 110%;
+    max-width: 110%;
+    margin-left: -5%;
+    padding: 22px;
+  }
+  
   .header h1 {
     font-size: 2.09rem;
   }
@@ -843,6 +866,21 @@ body.light-mode .theme-toggle:hover {
   .skill-logo {
     width: 70px;
     height: 70px;
+  }
+  
+  /* Better mobile content utilization */
+  .header {
+    padding: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  section {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .research-item, .work-item, .education-item {
+    padding: 0.8rem;
   }
 }
 
@@ -894,7 +932,9 @@ body.light-mode .theme-toggle:hover {
 
 @media (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 110%;
+    max-width: 110%;
+    margin-left: -5%;
     padding: 22px;
   }
   
@@ -918,7 +958,9 @@ body.light-mode .theme-toggle:hover {
 
 @media (max-width: 480px) {
   .container {
-    width: 100%;
+    width: 110%;
+    max-width: 110%;
+    margin-left: -5%;
     padding: 22px;
   }
 
@@ -973,5 +1015,24 @@ body.light-mode .theme-toggle:hover {
     padding: 10px 14px;
     font-size: 0.76rem;
     min-width: 100px;
+  }
+  
+  /* Better content spacing for very small screens */
+  .header {
+    padding: 1.2rem;
+  }
+  
+  section {
+    padding: 0.6rem;
+  }
+  
+  .research-item, .work-item, .education-item {
+    padding: 0.6rem;
+  }
+  
+  /* Improve link spacing on mobile */
+  .links a {
+    margin: 0.3rem;
+    padding: 0.5rem 0.8rem;
   }
 }
