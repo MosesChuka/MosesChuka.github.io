@@ -86,15 +86,12 @@ description: Moses Chukwuka's website
   <p>Westlake University (Full-time)<br>
   Supervisor: <a href="https://en.westlake.edu.cn/faculty/kaicheng-yu.html">Kaicheng Yu</a><br>
   <em>April 2025 - Present</em></p>
-  
-  
-  
   </div>
   </div>
 
 <div class="work-item">
 <div class="work-content">
-<h3>Internship, Northeast University Perception Research Lab</h3>
+<h3>Internship, Northeast University Perception Research Lab（东北大学）</h3>
 <p>Training of crop row detection deep learning models; training of deep learning models for farm scene panoptic segmentation; deployment of deep learning models for robust visual navigation of agricultural robots; [See Project on Trajectory Estimation].<br><em>2023-2024</em></p>
 </div>
 </div>
