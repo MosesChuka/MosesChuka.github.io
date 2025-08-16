@@ -134,25 +134,25 @@ body.light-mode h2::after {
 
 /* Special styling for Recent Updates section */
 .updates {
-  background: rgba(255, 107, 107, 0.05);
+  background: rgba(52, 152, 219, 0.05);
   border-radius: 12px;
   padding: 1.5rem;
-  border: 1px solid rgba(255, 107, 107, 0.1);
+  border: 1px solid rgba(52, 152, 219, 0.1);
   margin-bottom: 2.5rem;
 }
 
 body.light-mode .updates {
-  background: rgba(255, 107, 107, 0.03);
-  border: 1px solid rgba(255, 107, 107, 0.15);
+  background: rgba(52, 152, 219, 0.03);
+  border: 1px solid rgba(52, 152, 219, 0.15);
 }
 
 .updates h2::after {
-  background: linear-gradient(90deg, #ff6b6b, #ee5a24);
+  background: linear-gradient(90deg, #3498db, #2980b9);
   width: 80px;
 }
 
 body.light-mode .updates h2::after {
-  background: linear-gradient(90deg, #ff6b6b, #ee5a24);
+  background: linear-gradient(90deg, #3498db, #2980b9);
 }
 
 /* Special styling for Research section */
@@ -291,7 +291,7 @@ body.light-mode p {
   padding: 0.8rem;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  border-left: 3px solid #ff6b6b;
+  border-left: 3px solid #3498db;
   transition: all 0.3s ease;
 }
 
@@ -302,21 +302,62 @@ body.light-mode p {
 
 body.light-mode .updates ul li {
   color: #333;
-  background: rgba(255, 107, 107, 0.05);
-  border-left: 3px solid #ff6b6b;
+  background: rgba(52, 152, 219, 0.05);
+  border-left: 3px solid #3498db;
 }
 
 body.light-mode .updates ul li:hover {
-  background: rgba(255, 107, 107, 0.1);
+  background: rgba(52, 152, 219, 0.1);
 }
 
 .updates ul li strong {
-  color: #ff6b6b;
+  color: #3498db;
   font-weight: 600;
 }
 
 body.light-mode .updates ul li strong {
-  color: #e74c3c;
+  color: #2980b9;
+}
+
+/* Feature styling for important dates (2024, 2025) */
+.updates ul li strong.feature-date {
+  position: relative;
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+  transition: all 0.3s ease;
+  margin-right: 0.5rem;
+}
+
+.updates ul li strong.feature-date:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+  background: linear-gradient(135deg, #2980b9, #1f5f8b);
+}
+
+.updates ul li strong.feature-date::before {
+  content: "★";
+  margin-right: 0.3rem;
+  color: #f1c40f;
+  font-size: 0.8rem;
+}
+
+body.light-mode .updates ul li strong.feature-date {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: white;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.2);
+}
+
+body.light-mode .updates ul li strong.feature-date:hover {
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+  background: linear-gradient(135deg, #2980b9, #1f5f8b);
 }
 
 /* Enhanced styling for Service section list items */

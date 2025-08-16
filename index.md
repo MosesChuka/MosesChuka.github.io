@@ -37,9 +37,9 @@ description: Moses Chukwuka's website
 <section class="updates">
 <h2>Recent Updates</h2>
 <ul>
-<li><strong>2025-Present</strong> – Visiting Student at WestLake University</li>
-<li><strong>2024-Present</strong> – PhD in Autonomous Robotics and AI at Zhejiang University.</li>
-<li><strong>2024</strong> – Published: RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors. IEEE ACCESS.</li>
+<li><strong class="feature-date">2025-Present</strong> – Visiting Student at WestLake University</li>
+<li><strong class="feature-date">2024-Present</strong> – PhD in Autonomous Robotics and AI at Zhejiang University.</li>
+<li><strong class="feature-date">2024</strong> – Published: RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors. IEEE ACCESS.</li>
 </ul>
 </section>
 
