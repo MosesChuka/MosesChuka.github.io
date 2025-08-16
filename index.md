@@ -42,25 +42,29 @@ description: Moses Chukwuka's website
 </ul>
 </section>
 
+
+
 <section class="research">
-<h2>Research</h2>
+  <h2>Research</h2>
 
-
-<div class="research-item">
-<img src="/static/RDSP-SLAM.png" alt="RDSP-SLAM" class="research-img">
-<div class="research-content">
-<h3><a href="http://dx.doi.org/10.1109/ACCESS.2024.3368859">RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors</a></h3>
-<p><em>Moses Chukwuka Okonkwo, Junyou Yang, Yizhen Sun, Guang Yang, Fausto Pedro García Márquez</em><br><strong>IEEE ACCESS (2024)</strong></p>
-</div>
-</div>
+  <div class="research-item">
+  <img src="/static/RDSP-SLAM.png" alt="RDSP-SLAM" class="research-img">
+  <div class="research-content">
+  <h3><a href="http://dx.doi.org/10.1109/ACCESS.2024.3368859">RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors</a></h3>
+  <p><em>Moses Chukwuka Okonkwo, Junyou Yang, Yizhen Sun, Guang Yang, Fausto Pedro García Márquez</em><br><strong>IEEE ACCESS (2024)</strong></p>
+  </div>
+  </div>
 </section>
 
 <section class="projects">
-<img src="/static/AgroNav.gif" alt="AgroNav" class="research-img">
-<div class="project-item">
-<h3>Centralized Trajectory Estimation on Visual Stream Images Using Agro-Nav</h3>
-<p><em>2022</em></p>
-</div>
+  <h2>Project</h2>
+  <div class="research-item">
+  <img src="/static/AgroNav.gif" alt="AgroNav" class="research-img">
+  <div class="project-item">
+  <h3>Centralized Trajectory Estimation on Visual Stream Images Using Agro-Nav</h3>
+  <p><em>2022</em></p>
+  </div>
+  </div>
 </section>
 
 <section class="work-experience">
