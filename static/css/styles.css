@@ -90,15 +90,15 @@ section {
   padding: 1rem;
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
   border-radius: 15px;
-  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  /* box-shadow: 0 6px 20px rgba(255, 255, 255, 0.08); */
+  /* border: 1px solid rgba(255, 255, 255, 0.05); */
   transition: all 0.3s ease;
 }
 
 body.light-mode section {
   background: linear-gradient(135deg, #f8f8f8 0%, #f0f0f0 100%);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); */
 }
 
 h2 {
@@ -168,7 +168,7 @@ body.light-mode p {
   width: 100%;
   height: auto;
   /* background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); */
-  padding: 2px;
+  padding: 5px 2px;
   border-radius: 12px;
   /* box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1); */
   border: 1px;
