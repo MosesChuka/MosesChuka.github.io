@@ -123,13 +123,13 @@ h2::after {
   left: 0;
   width: 60px;
   height: 2px;
-  background: linear-gradient(90deg, #007bff, #0056b3);
+  background: #727171;
   border-radius: 1px;
   transition: all 0.3s ease;
 }
 
 body.light-mode h2::after {
-  background: linear-gradient(90deg, #007bff, #0056b3);
+  background: #4a4a4a;
 }
 
 /* Special styling for Recent Updates section */
@@ -172,12 +172,12 @@ body.light-mode .research {
 }
 
 .research h2::after {
-  background: linear-gradient(90deg, #4ecdc4, #44a08d);
+  background: #727171;
   width: 70px;
 }
 
 body.light-mode .research h2::after {
-  background: linear-gradient(90deg, #4ecdc4, #44a08d);
+  background: #4a4a4a;
 }
 
 /* Special styling for Project section */
@@ -195,12 +195,12 @@ body.light-mode .project {
 }
 
 .project h2::after {
-  background: linear-gradient(90deg, #45b7d1, #96c93d);
+  background: #727171;
   width: 75px;
 }
 
 body.light-mode .project h2::after {
-  background: linear-gradient(90deg, #45b7d1, #96c93d);
+  background: #4a4a4a;
 }
 
 /* Special styling for Work Experience section */
@@ -218,12 +218,12 @@ body.light-mode .work-experience {
 }
 
 .work-experience h2::after {
-  background: linear-gradient(90deg, #f39c12, #e67e22);
+  background: #727171;
   width: 90px;
 }
 
 body.light-mode .work-experience h2::after {
-  background: linear-gradient(90deg, #f39c12, #e67e22);
+  background: #4a4a4a;
 }
 
 /* Special styling for Education section */
@@ -241,12 +241,12 @@ body.light-mode .education {
 }
 
 .education h2::after {
-  background: linear-gradient(90deg, #9b59b6, #8e44ad);
+  background: #727171;
   width: 85px;
 }
 
 body.light-mode .education h2::after {
-  background: linear-gradient(90deg, #9b59b6, #8e44ad);
+  background: #4a4a4a;
   width: 85px;
 }
 
@@ -265,12 +265,12 @@ body.light-mode .teaching-service {
 }
 
 .teaching-service h2::after {
-  background: currentColor;
+  background: #727171;
   width: 65px;
 }
 
 body.light-mode .teaching-service h2::after {
-  background: currentColor;
+  background: #4a4a4a;
 }
 
 p {
