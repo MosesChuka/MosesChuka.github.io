@@ -219,7 +219,7 @@ description: Moses Chukwuka's website
 </div>
 <div class="education-content">
 <h3>浙江大学</h3>
-<p>自主机器人与人工智能博士<br><em>2024-至今</em></p>
+<p>电气工程博士（计算机视觉与自主机器人）<br><em>2024-至今</em></p>
 </div>
 </div>
 <div class="education-item">
