@@ -97,7 +97,7 @@ description: Moses Chukwuka's website
 </div>
 <div class="education-item">
 <div class="education-logo">
-<img src="/static/shenyang-logo.png" alt="Shenyang University of Technology Logo" class="university-logo"/>
+<img src="/static/shenyang-logo.svg" alt="Shenyang University of Technology Logo" class="university-logo"/>
 </div>
 <div class="education-content">
 <h3>Shenyang University of Technology</h3>
@@ -282,7 +282,7 @@ description: Moses Chukwuka's website
 </div>
 <div class="education-item">
 <div class="education-logo">
-<img src="/static/shenyang-logo.png" alt="沈阳工业大学标志" class="university-logo"/>
+<img src="/static/shenyang-logo.svg" alt="沈阳工业大学标志" class="university-logo"/>
 </div>
 <div class="education-content">
 <h3>沈阳工业大学</h3>
