@@ -30,7 +30,7 @@ description: Moses Chukwuka's website
 <h2>Contact</h2>
 <p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
 <div style='align-items: center; display:block;' class="links">
-    <a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">CV</a> 
+    <a href="/static/Okonkwo Moses Chukwuka CV.pdf">CV</a> 
     <a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> 
     <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
     <a href="https://orcid.org/0000-0001-5842-6475"> ORCID</a>
