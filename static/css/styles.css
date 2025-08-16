@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #ffffff;
   background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
@@ -146,17 +146,12 @@ body.light-mode p {
   text-decoration: none;
   margin-right: 1.5rem;
   font-weight: 400;
-  padding: 0.5rem 1rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .links a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
   text-decoration: none;
 }
 
