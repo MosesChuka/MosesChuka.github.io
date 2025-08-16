@@ -568,6 +568,12 @@ body.light-mode .links a:hover {
   box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
 }
 
+/* About Section */
+.about {
+  text-align: justify;
+  line-height: 1.6;
+}
+
 /* Research and Other Items */
 .research-item, .work-item, .education-item, .project-item {
   display: flex;
