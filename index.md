@@ -75,7 +75,7 @@ description: Moses Chukwuka's website
 <img src="/static/westlake-logo.jpg" alt="Westlake University Logo" class="university-logo"/>
 </div>
 <div class="work-content">
-<h3>Research Intern, Autonomous Intelligence Lab</h3>
+<h3>Visiting Student, Autonomous Intelligence Lab</h3>
 <p>Westlake University (Full-time)<br><em>July 2025 - Present</em></p>
 </div>
 </div>
@@ -202,7 +202,7 @@ description: Moses Chukwuka's website
 <img src="/static/westlake-logo.jpg" alt="西湖大学标志" class="university-logo"/>
 </div>
 <div class="work-content">
-<h3>西湖大学自主智能实验室研究实习生</h3>
+<h3>西湖大学自主智能实验室访问学生</h3>
 <p>西湖大学（全职）<br><em>2025年7月 - 至今</em></p>
 </div>
 </div>
