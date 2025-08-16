@@ -22,6 +22,11 @@ description: Moses Chukwuka's website
 <p>Before to ZJU, I earned a Master's degree in Electrical Engineering at Shenyang University of Technology, where I worked on applying perceptual deep learning models to Visual-SLAM frameoworks. My Bachelor's degree was in Electronic Information Engineering from Xiangtan University. I mostly built automated system Using C and embeded system STM32s and 51s.</p>
 <p>Beyond work, I enjoy having interesting conversation with people, walking and reading.</p>
 
+</section>
+
+
+
+<section class="contact">
 <h2>Contact</h2>
 <p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
 <div style='align-items: center; display:block;' class="links">
@@ -30,6 +35,7 @@ description: Moses Chukwuka's website
     <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
     <a href="https://orcid.org/0000-0001-5842-6475"> ORCID</a>
 </div>
+</section>
 
 </section>
 
