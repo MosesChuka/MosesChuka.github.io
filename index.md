@@ -177,9 +177,9 @@ description: Moses Chukwuka's website
 </header>
 
 <section class="about">
-<p>我是浙江大学电气工程学院自主机器人与人工智能博士生，位于中国浙江省杭州市。目前，我正在研究如何改善机器人的环境感知能力。</p>
+<p>我是浙江大学电气工程学院自主系统感知博士生，位于中国浙江省杭州市。目前，我正在研究如何改善机器人的环境感知能力。</p>
 <p>在来到浙大之前，我在沈阳工业大学获得电气工程硕士学位，在那里我致力于将感知深度学习模型应用于视觉SLAM框架。我的学士学位来自湘潭大学电子信息工程专业。我主要使用C语言和嵌入式系统STM32和51系列构建自动化系统。</p>
-<p>工作之外，我喜欢与人们进行有趣的对话、散步和阅读。</p>
+<p>工作之外，我喜欢与有趣的人进行对话、散步和阅读。另外，我还会说流利的中文。</p>
 </section>
 
 <section class="contact">
@@ -197,7 +197,7 @@ description: Moses Chukwuka's website
 <h2>最近更新</h2>
 <ul>
 <li><strong class="feature-date">2025-至今</strong> – 西湖大学访问学生</li>
-<li><strong class="feature-date">2024-至今</strong> – 浙江大学自主机器人与人工智能博士</li>
+<li><strong class="feature-date">2024-至今</strong> – 浙江大学自主系统感知博士</li>
 <li><strong class="feature-date">2024</strong> – 发表：RDSP-SLAM：基于深度形状先验的鲁棒物体感知SLAM。IEEE ACCESS。</li>
 </ul>
 </section>
@@ -244,7 +244,7 @@ description: Moses Chukwuka's website
 </div>
 <div class="education-content">
 <h3>浙江大学</h3>
-<p>电气工程博士（计算机视觉与自主机器人）<br><em>2024-至今</em></p>
+<p>电气工程博士（自主系统感知）<br><em>2024-至今</em></p>
 </div>
 </div>
 <div class="education-item">
