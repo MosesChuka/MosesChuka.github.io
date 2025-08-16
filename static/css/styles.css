@@ -88,17 +88,14 @@ body.light-mode .header h1 {
 section {
   margin-bottom: 2rem;
   padding: 1rem;
-  background: #0a0a0a;
+  background: transparent;
   border-radius: 15px;
-  /* box-shadow: 0 6px 20px rgba(255, 255, 255, 0.08); */
-  /* border: 1px solid rgba(255, 255, 255, 0.05); */
   transition: all 0.3s ease;
 }
 
 body.light-mode section {
-  background: #f8f8f8;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); */
+  background: transparent;
+  border: none;
 }
 
 h2 {
@@ -106,7 +103,7 @@ h2 {
   font-weight: 300;
   color: #ffffff;
   margin-bottom: 1.2rem;
-  border-bottom: 3px solid #666666;
+  border-bottom: none;
   padding-bottom: 0.8rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   position: relative;
@@ -119,14 +116,7 @@ body.light-mode h2 {
 }
 
 h2::after {
-  content: '';
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 50px;
-  height: 3px;
-  background: linear-gradient(90deg, #666666, #999999);
-  border-radius: 2px;
+  content: none;
 }
 
 p {
@@ -162,11 +152,9 @@ body.light-mode p {
   margin: 3px 3px;
   width: 100%;
   height: auto;
-  /* background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); */
   padding: 5px 2px;
   border-radius: 12px;
-  box-shadow: 0 8px 8px rgba(255, 255, 255, 0.1);
-  /* border: 1px; */
+  box-shadow: none;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -176,9 +164,8 @@ body.light-mode .research-item,
 body.light-mode .work-item, 
 body.light-mode .education-item, 
 body.light-mode .project-item {
-  background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); */
+  background: transparent;
+  border: none;
 }
 
 .research-item::before, .work-item::before, .education-item::before, .project-item::before {
