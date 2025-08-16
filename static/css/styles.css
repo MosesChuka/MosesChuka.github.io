@@ -254,9 +254,9 @@ body.light-mode .education h2::after {
 .teaching-service {
   background: transparent;
   border-radius: 0;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   border: none;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 body.light-mode .teaching-service {
@@ -265,12 +265,14 @@ body.light-mode .teaching-service {
 }
 
 .teaching-service h2::after {
-  background: #727171;
-  width: 65px;
+  background: currentColor;
+  opacity: 0.3;
+  width: 60px;
 }
 
 body.light-mode .teaching-service h2::after {
-  background: #4a4a4a;
+  background: currentColor;
+  opacity: 0.3;
 }
 
 p {
@@ -382,6 +384,11 @@ body.light-mode .updates ul li strong.feature-date:hover {
   border-left-color: currentColor;
   opacity: 0.8;
   transition: opacity 0.2s ease;
+}
+
+.teaching-service ul li::before {
+  content: "";
+  display: none;
 }
 
 .teaching-service ul li:hover {
