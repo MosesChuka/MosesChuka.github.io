@@ -252,25 +252,25 @@ body.light-mode .education h2::after {
 
 /* Special styling for Service section */
 .teaching-service {
-  background: rgba(231, 76, 60, 0.03);
-  border-radius: 12px;
+  background: transparent;
+  border-radius: 0;
   padding: 1.5rem;
-  border: 1px solid rgba(231, 76, 60, 0.1);
+  border: none;
   margin-bottom: 2rem;
 }
 
 body.light-mode .teaching-service {
-  background: rgba(231, 76, 60, 0.02);
-  border: 1px solid rgba(231, 76, 60, 0.15);
+  background: transparent;
+  border: none;
 }
 
 .teaching-service h2::after {
-  background: linear-gradient(90deg, #e74c3c, #c0392b);
+  background: currentColor;
   width: 65px;
 }
 
 body.light-mode .teaching-service h2::after {
-  background: linear-gradient(90deg, #e74c3c, #c0392b);
+  background: currentColor;
 }
 
 p {
@@ -372,38 +372,41 @@ body.light-mode .updates ul li strong.feature-date:hover {
 
 /* Enhanced styling for Service section list items */
 .teaching-service ul li {
-  font-weight: 500;
-  color: #ffffff;
-  margin-bottom: 1rem;
-  padding: 0.8rem;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  border-left: 3px solid #e74c3c;
-  transition: all 0.3s ease;
+  font-weight: 400;
+  color: inherit;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+  background: transparent;
+  border-radius: 0;
+  border-left: 2px solid;
+  border-left-color: currentColor;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
 }
 
 .teaching-service ul li:hover {
-  background: rgba(255, 255, 255, 0.1);
-  transform: translateX(5px);
+  opacity: 1;
+  background: transparent;
+  transform: none;
 }
 
 body.light-mode .teaching-service ul li {
-  color: #333;
-  background: rgba(231, 76, 60, 0.05);
-  border-left: 3px solid #e74c3c;
+  color: inherit;
+  background: transparent;
+  border-left-color: currentColor;
 }
 
 body.light-mode .teaching-service ul li:hover {
-  background: rgba(231, 76, 60, 0.1);
+  background: transparent;
 }
 
 .teaching-service ul li strong {
-  color: #e74c3c;
+  color: inherit;
   font-weight: 600;
 }
 
 body.light-mode .teaching-service ul li strong {
-  color: #c0392b;
+  color: inherit;
 }
 
 .links a {
