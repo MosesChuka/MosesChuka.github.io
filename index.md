@@ -202,30 +202,7 @@ description: Moses Chukwuka's website
   </div>
 </section>
 
-<section class="work-experience">
-<h2>工作经验</h2>
-<div class="work-item">
-<div class="work-logo">
-<img src="/static/westlake-logo.jpg" alt="西湖大学标志" class="university-logo"/>
-</div>
-<div class="work-content">
-<h3>西湖大学自主智能实验室访问学生</h3>
-<p>西湖大学（全职）<br><em>2025年7月 - 至今</em></p>
-</div>
-</div>
-<div class="work-item">
-<div class="work-content">
-<h3>东北大学感知研究实验室实习</h3>
-<p>作物行检测深度学习模型训练；农场场景全景分割深度学习模型训练；部署深度学习模型用于农业机器人的鲁棒视觉导航；[参见轨迹估计项目]。<br><em>2023-2024</em></p>
-</div>
-</div>
-<div class="work-item">
-<div class="work-content">
-<h3>湘潭大学夏季工程训练营</h3>
-<p>嵌入式系统和C语言编程。<br><em>2019</em></p>
-</div>
-</div>
-</section>
+
 
 <section class="education">
 <h2>教育背景</h2>
