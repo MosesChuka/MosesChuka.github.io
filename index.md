@@ -83,9 +83,12 @@ description: Moses Chukwuka's website
 </div>
 <div class="work-content">
   <h3>Visiting Student, Autonomous Intelligence Lab</h3>
-   Supervisor: <a href="https://en.westlake.edu.cn/faculty/kaicheng-yu.html">Kaicheng Yu</a><br>
-        <em>April 2025 - Present</em></p>
-  <p>Westlake University (Full-time)<br><em>July 2025 - Present</em></p>
+  <p>Westlake University (Full-time)<br>
+  Supervisor: <a href="https://en.westlake.edu.cn/faculty/kaicheng-yu.html">Kaicheng Yu</a><br>
+  <em>July 2025 - Present</em></p>
+  
+  
+  
   </div>
   </div>
 

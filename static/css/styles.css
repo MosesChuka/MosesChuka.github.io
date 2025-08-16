@@ -543,6 +543,12 @@ body.light-mode .project-item:hover {
   gap: 1rem;
 }
 
+.work-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
 .education-logo {
   flex-shrink: 0;
   width: 105px;
@@ -574,6 +580,10 @@ body.light-mode .project-item:hover {
 }
 
 .education-content {
+  flex: 1;
+}
+
+.work-content {
   flex: 1;
 }
 
