@@ -150,11 +150,11 @@ description: Moses Chukwuka's website
 <h2>Skills & Technologies</h2>
 <div class="skills-content">
   <div class="skill-item">
-    <img src="/static/Cpp-logo.jpeg" alt="C++ Logo" class="skill-logo"/>
+    <img src="/static/cpp-logo.jpeg" alt="C++ Logo" class="skill-logo"/>
     <span>C++</span>
   </div>
   <div class="skill-item">
-    <img src="/static/Unknown.jpeg" alt="Python Logo" class="skill-logo"/>
+    <img src="/static/python-logo.jpeg" alt="Python Logo" class="skill-logo"/>
     <span>Python</span>
   </div>
 </div>
@@ -310,11 +310,11 @@ description: Moses Chukwuka's website
 <h2>技能与技术</h2>
 <div class="skills-content">
   <div class="skill-item">
-    <img src="/static/Cpp-logo.jpeg" alt="C++ Logo" class="skill-logo"/>
+    <img src="/static/cpp-logo.jpeg" alt="C++ Logo" class="skill-logo"/>
     <span>C++</span>
   </div>
   <div class="skill-item">
-    <img src="/static/Unknown.jpeg" alt="Python Logo" class="skill-logo"/>
+    <img src="/static/python-logo.jpeg" alt="Python Logo" class="skill-logo"/>
     <span>Python</span>
   </div>
 </div>
