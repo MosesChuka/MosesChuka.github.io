@@ -71,6 +71,15 @@ description: Moses Chukwuka's website
 <section class="work-experience">
 <h2>Work Experience</h2>
 <div class="work-item">
+<div class="work-logo">
+<img src="/static/westlake-logo.jpg" alt="Westlake University Logo" class="university-logo"/>
+</div>
+<div class="work-content">
+<h3>Research Intern, Autonomous Intelligence Lab</h3>
+<p>Westlake University (Full-time)<br><em>July 2025 - Present</em></p>
+</div>
+</div>
+<div class="work-item">
 <div class="work-content">
 <h3>Internship, Northeast University Perception Research Lab</h3>
 <p>Training of crop row detection deep learning models; Training of deep learning models for farm scene panoptic segmentation; Deployment of deep learning models for robust visual navigation of Agricultural Robots;[See Project on Trajectory Estimation].<br><em>2023-2024</em></p>
@@ -188,6 +197,15 @@ description: Moses Chukwuka's website
 
 <section class="work-experience">
 <h2>工作经验</h2>
+<div class="work-item">
+<div class="work-logo">
+<img src="/static/westlake-logo.jpg" alt="西湖大学标志" class="university-logo"/>
+</div>
+<div class="work-content">
+<h3>西湖大学自主智能实验室研究实习生</h3>
+<p>西湖大学（全职）<br><em>2025年7月 - 至今</em></p>
+</div>
+</div>
 <div class="work-item">
 <div class="work-content">
 <h3>东北大学感知研究实验室实习</h3>
