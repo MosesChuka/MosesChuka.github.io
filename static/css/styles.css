@@ -157,49 +157,37 @@ body.light-mode .links a:hover {
 .research-item, .work-item, .education-item, .project-item {
   display: flex;
   flex-direction: column;
-  margin: 3px 3px;
-  width: 100%;
-  height: auto;
-  padding: 5px 2px;
-  border-radius: 12px;
-  box-shadow: none;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
 }
 
 body.light-mode .research-item, 
 body.light-mode .work-item, 
 body.light-mode .education-item, 
 body.light-mode .project-item {
-  background: transparent;
-  border: none;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .research-item::before, .work-item::before, .education-item::before, .project-item::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  /* background: linear-gradient(90deg, #666666, #999999); */
+  content: none;
 }
 
 .research-item:hover, .work-item:hover, .education-item:hover, .project-item:hover {
-  transform: translateY(-5px);
-  /* box-shadow: 0 15px 35px rgba(255, 255, 255, 0.15); */
-  /* border-color: rgba(255, 255, 255, 0.2); */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .research-img, .work-img, .education-img {
   width: 100%;
   max-width: 200px;
   height: auto;
-  border-radius: 12px;
-  margin-bottom: 1.5rem;
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin-bottom: 1rem;
   transition: transform 0.3s ease;
 }
 
@@ -208,24 +196,14 @@ body.light-mode .project-item {
 }
 
 .research-content h3, .work-content h3, .education-content h3, .project-item h3 {
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  color: #ffffff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  transition: all 0.3s ease;
-}
-
-body.light-mode .research-content h3, 
-body.light-mode .work-content h3, 
-body.light-mode .education-content h3, 
-body.light-mode .project-item h3 {
-  color: #000000;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #222;
 }
 
 .research-content a, .project-item a {
-  color: #cccccc;
+  color: #007bff;
   text-decoration: none;
 }
 
@@ -240,26 +218,18 @@ ul {
 
 ul li {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   position: relative;
-  padding-left: 2rem;
-  color: #e0e0e0;
+  padding-left: 1.5rem;
+  color: #333;
   line-height: 1.6;
-  transition: all 0.3s ease;
-}
-
-body.light-mode ul li {
-  color: #000000;
 }
 
 ul li:before {
   content: "•";
-  color: #cccccc;
+  color: #007bff;
   position: absolute;
   left: 0;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer */
