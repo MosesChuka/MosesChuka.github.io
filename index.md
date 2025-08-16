@@ -19,7 +19,7 @@ description: Moses Chukwuka's website
 
 <section class="about">
 <p>I am a PhD student with interest in Computer Vision and Perception for Autonomous Systems at Zhejiang University, School of Electrical Engineering, Hangzhou, Zhejiang, China. Currently, I am looking into improving the environmental perception of robots.</p>
-<p>Before to ZJU, I earned a Master's degree in Electrical Engineering at Shenyang University of Technology, where I worked on applying perceptual deep learning models to Visual-SLAM frameoworks. My Bachelor's degree was in Electronic Information Engineering from Xiangtan University. I mostly built automated system Using C and embeded system STM32s and 51s</p>
+<p>Before to ZJU, I earned a Master's degree in Electrical Engineering at Shenyang University of Technology, where I worked on applying perceptual deep learning models to Visual-SLAM frameoworks. My Bachelor's degree was in Electronic Information Engineering from Xiangtan University. I mostly built automated system Using C and embeded system STM32s and 51s.</p>
 <p>Beyond work, I enjoy having interesting conversation with people, walking and reading.</p>
 
 <p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>

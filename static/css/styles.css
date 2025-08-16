@@ -142,7 +142,7 @@ body.light-mode p {
 }
 
 .links a {
-  color: #cccccc;
+  color: #0066cc;
   text-decoration: none;
   margin-right: 1.5rem;
   font-weight: 400;
@@ -150,7 +150,7 @@ body.light-mode p {
 }
 
 .links a:hover {
-  color: #ffffff;
+  color: #0052a3;
   transform: translateY(-2px);
   text-decoration: none;
 }
