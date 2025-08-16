@@ -167,11 +167,11 @@ body.light-mode p {
   margin: 3px 3px;
   width: 100%;
   height: auto;
-  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  /* background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); */
   padding: 2px;
   border-radius: 12px;
   /* box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1); */
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -183,7 +183,7 @@ body.light-mode .education-item,
 body.light-mode .project-item {
   background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); */
 }
 
 .research-item::before, .work-item::before, .education-item::before, .project-item::before {
@@ -193,7 +193,7 @@ body.light-mode .project-item {
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, #666666, #999999);
+  /* background: linear-gradient(90deg, #666666, #999999); */
 }
 
 .research-item:hover, .work-item:hover, .education-item:hover, .project-item:hover {
