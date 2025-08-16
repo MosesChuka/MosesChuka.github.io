@@ -19,7 +19,7 @@ description: Moses Chukwuka's website
 
 <section class="about">
 <p>I am a PhD student with interest in Computer Vision and Perception for Autonomous Systems at Zhejiang University, School of Electrical Engineering, Hangzhou, Zhejiang, China. Currently, I am looking into improving the environmental perception of robots.</p>
-<p>Prior to ZJU, I earned a Master's degree in Electrical Engineering with focus on Robotics and AI from Shenyang University of Technology, and a Bachelor's degree in Electronic Information Engineering from Xiangtan University.</p>
+<p>Before to ZJU, I earned a Master's degree in Electrical Engineering at Shenyang University of Technology, where I worked on applying perceptual deep learning models to Visual-SLAM frameoworks. My Bachelor's degree was in Electronic Information Engineering from Xiangtan University. I mostly built automated system Using C and embeded system STM32s and 51s</p>
 <p>Beyond work, I enjoy having interesting conversation with people, walking and reading.</p>
 
 <p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
@@ -36,7 +36,7 @@ description: Moses Chukwuka's website
 <section class="updates">
 <h2>Recent Updates</h2>
 <ul>
-<li><strong>2025-Present</strong> – Visiting Student at WestLake University and AI at Zhejiang University.</li>
+<li><strong>2025-Present</strong> – Visiting Student at WestLake University</li>
 <li><strong>2024-Present</strong> – PhD in Autonomous Robotics and AI at Zhejiang University.</li>
 <li><strong>2024</strong> – Published: RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors. IEEE ACCESS.</li>
 </ul>
@@ -47,6 +47,7 @@ description: Moses Chukwuka's website
 
 
 <div class="research-item">
+<img src="/static/RDSP-SLAM.png" alt="RDSP-SLAM" class="research-img">
 <div class="research-content">
 <h3><a href="http://dx.doi.org/10.1109/ACCESS.2024.3368859">RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors</a></h3>
 <p><em>Moses Chukwuka Okonkwo, Junyou Yang, Yizhen Sun, Guang Yang, Fausto Pedro García Márquez</em><br><strong>IEEE ACCESS (2024)</strong></p>
@@ -55,13 +56,9 @@ description: Moses Chukwuka's website
 </section>
 
 <section class="projects">
-<h2>Projects</h2>
+<img src="/static/AgroNav.gif" alt="AgroNav" class="research-img">
 <div class="project-item">
-<h3>Robust Keyframe segmentation of visual Object-SLAM Based on Deepshape priors (ORBSLAM2, DeepSDF, YOLOv8/RTM-Det)</h3>
-<p><em>2023, MSc Project (in-progress)</em></p>
-</div>
-<div class="project-item">
-<h3>Trajectory Estimation on Visual Stream Images Using Agro-Nav</h3>
+<h3>Centralized Trajectory Estimation on Visual Stream Images Using Agro-Nav</h3>
 <p><em>2022</em></p>
 </div>
 </section>
@@ -78,12 +75,6 @@ description: Moses Chukwuka's website
 <div class="work-content">
 <h3>Xiangtan University Summer Engineering Boot Camp</h3>
 <p>Embedded Systems and Programming.<br><em>2019</em></p>
-</div>
-</div>
-<div class="work-item">
-<div class="work-content">
-<h3>Xiangtan Shenzhou Special Cables Co., Ltd.</h3>
-<p>Xiangtan City, Hunan Province, P.R. China.<br><em>2018</em></p>
 </div>
 </div>
 </section>
