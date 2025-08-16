@@ -177,13 +177,7 @@ body.light-mode .project-item {
 }
 
 .research-item::before, .work-item::before, .education-item::before, .project-item::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  /* background: linear-gradient(90deg, #666666, #999999); */
+  content: none;
 }
 
 .research-item:hover, .work-item:hover, .education-item:hover, .project-item:hover {
@@ -198,13 +192,19 @@ body.light-mode .project-item {
   height: auto;
   border-radius: 12px;
   margin-bottom: 1.5rem;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: none;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
 }
 
 .research-img:hover, .work-img:hover, .education-img:hover {
   transform: scale(1.03);
+}
+
+body.light-mode .research-img, 
+body.light-mode .work-img, 
+body.light-mode .education-img {
+  border: none;
 }
 
 .research-content h3, .work-content h3, .education-content h3, .project-item h3 {
