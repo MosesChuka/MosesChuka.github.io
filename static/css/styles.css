@@ -294,6 +294,76 @@ body.light-mode .education h2::after {
   width: 85px;
 }
 
+/* Special styling for Skills section */
+.skills {
+  background: linear-gradient(135deg, #1f1f1f 0%, #2a2a2a 100%);
+  border-radius: 16px;
+  border: none;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(255, 255, 255, 0.03);
+}
+
+body.light-mode .skills {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f8f8 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.skills h2::after {
+  background: #727171;
+  width: 75px;
+}
+
+body.light-mode .skills h2::after {
+  background: #4a4a4a;
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-logo:hover {
+  transform: scale(1.1);
+}
+
+.skill-item span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #d0d0d0;
+  transition: all 0.3s ease;
+}
+
+body.light-mode .skill-item span {
+  color: #222;
+}
+
 /* Special styling for Service section */
 .teaching-service {
   background: transparent;
@@ -765,6 +835,15 @@ body.light-mode .theme-toggle:hover {
   .research-content, .work-content, .education-content {
     text-align: center;
   }
+  
+  .skills-content {
+    gap: 1.5rem;
+  }
+  
+  .skill-logo {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -877,6 +956,15 @@ body.light-mode .theme-toggle:hover {
 
   .research-img, .work-img, .education-img {
     max-width: 121px;
+  }
+  
+  .skills-content {
+    gap: 1rem;
+  }
+  
+  .skill-logo {
+    width: 60px;
+    height: 60px;
   }
 
   .theme-toggle {
