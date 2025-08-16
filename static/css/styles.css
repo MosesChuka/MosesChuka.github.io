@@ -70,7 +70,7 @@ body.light-mode .header h1 {
 
 .profile-img {
   width: 100%;
-  max-width: 180px;
+  max-width: 198px;
   height: auto;
   border-radius: 15px;
   margin-top: 1rem;
@@ -481,7 +481,7 @@ body.light-mode .project-item:hover {
 
 .research-img, .work-img, .education-img {
   width: 100%;
-  max-width: 200px;
+  max-width: 220px;
   height: auto;
   border-radius: 8px;
   margin-bottom: 1rem;
@@ -666,7 +666,7 @@ body.light-mode .theme-toggle:hover {
   }
 
   .research-img, .work-img, .education-img {
-    width: 150px;
+    width: 165px;
     margin-right: 1.5rem;
     margin-bottom: 0;
   }
@@ -702,7 +702,7 @@ body.light-mode .theme-toggle:hover {
   }
 
   .profile-img {
-    max-width: 150px;
+    max-width: 165px;
   }
 
   h2 {
@@ -714,7 +714,7 @@ body.light-mode .theme-toggle:hover {
   }
 
   .research-img, .work-img, .education-img {
-    max-width: 100px;
+    max-width: 110px;
   }
 
   .theme-toggle {
