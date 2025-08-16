@@ -25,7 +25,7 @@ body.light-mode {
   max-width: 1800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #0a0a0a;
+  /* background-color: #0a0a0a; */
   transition: all 0.3s ease;
 }
 
@@ -170,8 +170,8 @@ body.light-mode p {
   /* background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%); */
   padding: 5px 2px;
   border-radius: 12px;
-  /* box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1); */
-  border: 1px;
+  box-shadow: 0 8px 8px rgba(255, 255, 255, 0.1);
+  /* border: 1px; */
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -198,8 +198,8 @@ body.light-mode .project-item {
 
 .research-item:hover, .work-item:hover, .education-item:hover, .project-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.2);
+  /* box-shadow: 0 15px 35px rgba(255, 255, 255, 0.15); */
+  /* border-color: rgba(255, 255, 255, 0.2); */
 }
 
 .research-img, .work-img, .education-img {
@@ -343,7 +343,7 @@ button:active {
 
 .theme-toggle:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(68, 68, 68, 0.4);
+  /* box-shadow: 0 8px 25px rgba(68, 68, 68, 0.4); */
   background: linear-gradient(135deg, #222222 0%, #444444 100%);
 }
 
