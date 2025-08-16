@@ -551,8 +551,8 @@ body.light-mode .project-item:hover {
 
 .education-logo {
   flex-shrink: 0;
-  width: 105px;
-  height: 105px;
+  width: 115.5px;
+  height: 115.5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -560,8 +560,8 @@ body.light-mode .project-item:hover {
 
 .work-logo {
   flex-shrink: 0;
-  width: 105px;
-  height: 105px;
+  width: 115.5px;
+  height: 115.5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -757,7 +757,7 @@ body.light-mode .theme-toggle:hover {
   }
   
   .research-img, .work-img, .education-img {
-    width: 121px;
+    width: 133.1px;
     margin-right: 0;
     margin-bottom: 1rem;
   }
@@ -795,7 +795,7 @@ body.light-mode .theme-toggle:hover {
   }
 
   .research-img, .work-img, .education-img {
-    width: 182px;
+    width: 200.2px;
     margin-right: 1.5rem;
     margin-bottom: 0;
   }
