@@ -145,6 +145,14 @@ body.light-mode p {
   text-decoration: none;
 }
 
+body.light-mode .links a {
+  color: #0066cc;
+}
+
+body.light-mode .links a:hover {
+  color: #0052a3;
+}
+
 /* Research and Other Items */
 .research-item, .work-item, .education-item, .project-item {
   display: flex;
