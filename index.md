@@ -124,12 +124,12 @@ description: Moses Chukwuka's website
 </div>
 </section>
 
-<section class="teaching-service">
+<!-- <section class="teaching-service">
 <h2>Service</h2>
 <ul>
-<li>Graduate Student Research Assistant (Navigation, Positioning, and Wireless Communication), <em>2018-2021</em></li>
+<li>Lab Assistant (Navigation, Positioning, and Wireless Communication), <em>2018-2021</em></li>
 </ul>
-</section>
+</section> -->
 
 <footer>© Okonkwo Moses Chukwuka | Last updated: August 2025</footer>
 </div>
