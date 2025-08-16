@@ -18,7 +18,7 @@ description: Moses Chukwuka's website
 </header>
 
 <section class="about">
-<p>I am a PhD student with interest in Computer Vision and Perception for Autonomous Systems at Zhejiang University, School of Electrical Engineering, Hangzhou, Zhejiang, China. Currently, I am looking into improving the environmental perception of robots.</p>
+<p>I am a PhD student with major interest in Perception for Autonomous Systems at Zhejiang University, School of Electrical Engineering, Hangzhou, Zhejiang, China. Currently, I am looking into improving the environment understanding of robots.</p>
 <p>Before to ZJU, I earned a Master's degree in Electrical Engineering at Shenyang University of Technology, where I worked on applying perceptual deep learning models to Visual-SLAM frameoworks. My Bachelor's degree was in Electronic Information Engineering from Xiangtan University. I mostly built automated system Using C and embeded system STM32s and 51s.</p>
 <p>Beyond work, I enjoy having interesting conversation with people, walking and reading.</p>
 
@@ -85,7 +85,7 @@ description: Moses Chukwuka's website
   <h3>Visiting Student, Autonomous Intelligence Lab</h3>
   <p>Westlake University (Full-time)<br>
   Supervisor: <a href="https://en.westlake.edu.cn/faculty/kaicheng-yu.html">Kaicheng Yu</a><br>
-  <em>July 2025 - Present</em></p>
+  <em>April 2025 - Present</em></p>
   
   
   
