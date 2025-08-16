@@ -545,8 +545,17 @@ body.light-mode .project-item:hover {
 
 .education-logo {
   flex-shrink: 0;
-  width: 60px;
-  height: 60px;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-logo {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
