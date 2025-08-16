@@ -44,7 +44,7 @@ description: Moses Chukwuka's website
 <h2>Recent Updates</h2>
 <ul>
 <li><strong class="feature-date">2025-Present</strong> – Visiting Student at WestLake University</li>
-<li><strong class="feature-date">2024-Present</strong> – PhD in Autonomous Robotics and AI at Zhejiang University.</li>
+<li><strong class="feature-date">2024-Present</strong> – PhD in Perception for Autonomous Systems at Zhejiang University.</li>
 <li><strong class="feature-date">2024</strong> – Published: RDSP-SLAM: Robust Object-Aware SLAM based on Deep Shape Priors. IEEE ACCESS.</li>
 </ul>
 </section>
@@ -76,15 +76,19 @@ description: Moses Chukwuka's website
 
 <section class="work-experience">
 <h2>Work Experience</h2>
+
 <div class="work-item">
 <div class="work-logo">
 <img src="/static/westlake-logo.jpg" alt="Westlake University Logo" class="university-logo"/>
 </div>
 <div class="work-content">
-<h3>Visiting Student, Autonomous Intelligence Lab</h3>
-<p>Westlake University (Full-time)<br><em>July 2025 - Present</em></p>
-</div>
-</div>
+  <h3>Visiting Student, Autonomous Intelligence Lab</h3>
+   Supervisor: <a href="https://en.westlake.edu.cn/faculty/kaicheng-yu.html">Kaicheng Yu</a><br>
+        <em>April 2025 - Present</em></p>
+  <p>Westlake University (Full-time)<br><em>July 2025 - Present</em></p>
+  </div>
+  </div>
+
 <div class="work-item">
 <div class="work-content">
 <h3>Internship, Northeast University Perception Research Lab</h3>
