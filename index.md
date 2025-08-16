@@ -125,7 +125,7 @@ description: Moses Chukwuka's website
 <div class="container" id="zh" style="display:none">
 <header class="header">
 <h1>Okonkwo Moses Chukwuka</h1>
-<img src="/static/MosesChuka-img.HEIC" alt="Okonkwo Moses Chukwuka" class="profile-img"/>
+<img src="/static/MosesChuka-img2.jpg"" alt="Okonkwo Moses Chukwuka" class="profile-img"/>
 </header>
 
 <section class="about">
