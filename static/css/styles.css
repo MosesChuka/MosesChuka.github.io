@@ -22,9 +22,9 @@ body.light-mode {
 
 .container {
   width: 100%;
-  max-width: 1800px;
+  max-width: 1980px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 22px;
   background: #000000;
   transition: all 0.3s ease;
 }
@@ -634,8 +634,8 @@ body.light-mode .theme-toggle:hover {
 @media (min-width: 768px) {
   .container {
     width: 100%;
-    max-width: 1400px;
-    padding: 30px;
+    max-width: 1540px;
+    padding: 33px;
   }
   
   .header {
@@ -680,14 +680,14 @@ body.light-mode .theme-toggle:hover {
 @media (max-width: 768px) {
   .container {
     width: 100%;
-    padding: 20px;
+    padding: 22px;
   }
 }
 
 @media (max-width: 480px) {
   .container {
     width: 100%;
-    padding: 20px;
+    padding: 22px;
   }
 
   .header h1 {
