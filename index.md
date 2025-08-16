@@ -60,7 +60,7 @@ description: Moses Chukwuka's website
   <h2>Project</h2>
   <div class="research-item">
   <img src="/static/AgroNav.gif" alt="AgroNav" class="research-img">
-  <div class="project-item">
+  <div class="research-content">
   <h3>Centralized Trajectory Estimation on Visual Stream Images Using Agro-Nav</h3>
   <p><em>2022</em></p>
   </div>
