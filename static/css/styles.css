@@ -17,7 +17,7 @@ html.light-mode {
 body {
   font-family: "Helvetica Neue-Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   line-height: 1.6;
-  color: #e8e8e8;
+  color: #d0d0d0;
   background: #000000;
   min-height: 100vh;
   scroll-behavior: smooth;
