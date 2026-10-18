@@ -13,7 +13,18 @@ description: Moses Chukwuka's website
 
 <div class="container" id="en">
 <header class="header">
+<div class="header-content">
 <h2>Okonkwo Moses Chukwuka</h2>
+<section class="contact">
+<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
+<div class="links">
+    <a href="/static/Okonkwo Moses Chukwuka CV.pdf">CV</a> 
+    <a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> 
+    <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
+    <a href="https://orcid.org/0000-0001-5842-6475">ORCID</a>
+</div>
+</section>
+</div>
 <img src="/static/MosesChuka-img2.jpg" alt="Okonkwo Moses Chukwuka" class="profile-img"/>
 </header>
 
@@ -23,20 +34,6 @@ description: Moses Chukwuka's website
 <p>Beyond work, I enjoy having conversations with interesting people, taking long walks and reading. Also, I speak fluent Mandarin.</p>
 
 </section>
-
-
-
-<section class="contact">
-<h2>Contact</h2>
-<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
-<div class="links">
-    <a href="/static/Okonkwo Moses Chukwuka CV.pdf">CV</a> 
-    <a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> 
-    <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
-    <a href="https://orcid.org/0000-0001-5842-6475">ORCID</a>
-</div>
-</section>
-
 
 
 
@@ -62,7 +59,6 @@ description: Moses Chukwuka's website
   </div>
   </div>
 </section>
-
 
 <section class="research">
   <h2>Research</h2>
@@ -182,7 +178,18 @@ description: Moses Chukwuka's website
 
 <div class="container" id="zh" style="display:none">
 <header class="header">
+<div class="header-content">
 <h2>Okonkwo Moses Chukwuka</h2>
+<section class="contact">
+<p><strong>邮箱:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
+<div class="links">
+    <a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">简历</a> 
+    <a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> 
+    <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
+    <a href="https://orcid.org/0000-0001-5842-6475"> ORCID</a>
+</div>
+</section>
+</div>
 <img src="/static/MosesChuka-img2.jpg" alt="Okonkwo Moses Chukwuka" class="profile-img"/>
 </header>
 
@@ -190,17 +197,6 @@ description: Moses Chukwuka's website
 <p>我是浙江大学电气工程学院自主系统感知博士生，位于中国浙江省杭州市。目前，我正在研究如何改善机器人的环境感知能力。</p>
 <p>在来到浙大之前，我在沈阳工业大学获得电气工程硕士学位，在那里我致力于将感知深度学习模型应用于视觉SLAM框架。我的学士学位来自湘潭大学电子信息工程专业。我主要使用C语言和嵌入式系统STM32和51系列构建自动化系统。</p>
 <p>工作之外，我喜欢与朋友们一起聊天、自己散步或者看书。</p>
-</section>
-
-<section class="contact">
-<h2>联系方式</h2>
-<p><strong>邮箱:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
-<div style='align-items: center; display:block;' class="links">
-    <a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">简历</a> 
-    <a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> 
-    <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
-    <a href="https://orcid.org/0000-0001-5842-6475"> ORCID</a>
-</div>
 </section>
 
 <section class="updates">

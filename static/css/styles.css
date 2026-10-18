@@ -57,6 +57,24 @@ body.light-mode .container {
   transition: all 0.3s ease;
 }
 
+.header-content {
+  width: 100%;
+  text-align: left;
+}
+
+.header h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+body.light-mode .header h2 {
+  color: #000000;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 body.light-mode .header {
   background: #f0f0f0;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -91,6 +109,15 @@ body.light-mode .header h1 {
 .profile-img:hover {
   transform: scale(1.05);
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+.header .contact {
+  margin: 0;
+  padding: 0;
+}
+
+.header .contact p {
+  margin-bottom: 0.5rem;
 }
 
 /* Sections */
@@ -903,7 +930,15 @@ body.light-mode .theme-toggle:hover {
     align-items: flex-start;
   }
 
+  .header-content {
+    flex: 1;
+  }
+
   .header h1 {
+    font-size: 2.5rem;
+  }
+
+  .header h2 {
     font-size: 2.5rem;
   }
 
