@@ -51,6 +51,18 @@ description: Moses Chukwuka's website
 </section>
 
 
+<section class="research">
+  <h2>Research</h2>
+
+  <div class="research-item">
+  <img src="/static/Wings-SLAM-Demo-Vid.gif" alt="WINGS-SLAM" class="research-img">
+  <div class="research-content">
+  <h3>RDSP-SLAM: Wild Natural-Language Gaussian Splatting SLAM</a></h3>
+  <p><em>Moses Chukwuka Okonkwo, Yizhen Sun, Jiaqiang Yang</em><br><strong>Comming soon (2026)</strong></p>
+  </div>
+  </div>
+</section>
+
 
 <section class="research">
   <h2>Research</h2>
