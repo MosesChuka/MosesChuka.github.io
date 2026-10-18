@@ -16,13 +16,13 @@ description: Moses Chukwuka's website
 <div class="header-content">
 <h2>Okonkwo Moses Chukwuka</h2>
 <section class="contact">
-<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
 <div class="links">
     <a href="/static/Okonkwo Moses Chukwuka CV.pdf">CV</a> 
     <a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> 
     <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
     <a href="https://orcid.org/0000-0001-5842-6475">ORCID</a>
 </div>
+<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
 </section>
 </div>
 <img src="/static/MosesChuka-img2.jpg" alt="Okonkwo Moses Chukwuka" class="profile-img"/>
@@ -54,7 +54,7 @@ description: Moses Chukwuka's website
   <div class="research-item">
   <img src="/static/Wings-SLAM-Demo-Vid.gif" alt="WINGS-SLAM" class="research-img">
   <div class="research-content">
-  <h3>RDSP-SLAM: Wild Natural-Language Gaussian Splatting SLAM</a></h3>
+  <h3>RDSP-SLAM: Wild Natural-Language Gaussian Splatting SLAM</h3>
   <p><em>Moses Chukwuka Okonkwo, Yizhen Sun, Jiaqiang Yang</em><br><strong>Comming soon (2026)</strong></p>
   </div>
   </div>
@@ -177,13 +177,13 @@ description: Moses Chukwuka's website
 <div class="header-content">
 <h2>Okonkwo Moses Chukwuka</h2>
 <section class="contact">
-<p><strong>邮箱:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
 <div class="links">
     <a href="/static/Okonkwo%20Moses%20Chukwuka%20ZJU-CV.pdf">简历</a> 
     <a href="https://www.researchgate.net/profile/Moses-Okonkwo">ResearchGate</a> 
     <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
     <a href="https://orcid.org/0000-0001-5842-6475"> ORCID</a>
 </div>
+<p><strong>邮箱:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
 </section>
 </div>
 <img src="/static/MosesChuka-img2.jpg" alt="Okonkwo Moses Chukwuka" class="profile-img"/>

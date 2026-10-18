@@ -97,7 +97,7 @@ body.light-mode .header h1 {
 
 .profile-img {
   width: 100%;
-  max-width: 198px;
+  max-width: 238px;
   height: auto;
   border-radius: 20px;
   margin-top: 1rem;
@@ -919,8 +919,11 @@ body.light-mode .theme-toggle:hover {
 
 @media (min-width: 768px) {
   .container {
-    width: 100%;
-    max-width: 1900px;
+    width: 110%;
+    max-width: 2090px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 33px;
   }
   
@@ -1010,7 +1013,7 @@ body.light-mode .theme-toggle:hover {
   }
 
   .profile-img {
-    max-width: 165px;
+    max-width: 198px;
   }
 
   h2 {
