@@ -22,7 +22,7 @@ description: Moses Chukwuka's website
     <a href="https://www.facebook.com/Chukwuka.0konkwo1">Facebook</a>
     <a href="https://orcid.org/0000-0001-5842-6475">ORCID</a>
 </div>
-<p><strong>Email:</strong> chukwukaokonkwo8@gmail.com | chukwukaokonkwo@zju.edu.cn</p>
+<p><strong>Email:</strong> chukwukaokonkwo8{AT}gmail.com | chukwukaokonkwo{AT}zju.edu.cn</p>
 </section>
 </div>
 <img src="/static/MosesChuka-img2.jpg" alt="Okonkwo Moses Chukwuka" class="profile-img"/>
